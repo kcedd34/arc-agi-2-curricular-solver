@@ -56,8 +56,28 @@ do repositorio para publicacao, conforme a exigencia de codigo aberto da competi
 ## Fora de escopo
 
 Nenhuma nova submissao, nenhum novo push de kernel. Selecionar a submissao 56552321 como
-entrega final na interface da Kaggle e tornar o repositorio publico sao acoes do usuario;
-as instrucoes manuais estao no README e foram passadas ao usuario fora desta ADR.
+entrega final na interface da Kaggle continua acao exclusiva do usuario (instrucoes manuais
+passadas fora desta ADR).
+
+## Atualizacao 2026-09-27 (publicacao efetiva)
+
+O usuario pediu explicitamente para executar a publicacao do repositorio (nao apenas
+instruir), com atencao a nao versionar dados sensiveis. Passos executados:
+
+- `git status` confirmou ausencia de repositorio (`.git`) antes de qualquer acao.
+- `git init`, `git add -A`, revisao da lista de 744 arquivos staged (nomes e diretorios de
+  topo) e varredura de padroes de segredo (chaves AWS, tokens `gh`/`hf`/`sk-`, chaves
+  privadas PEM): nenhuma ocorrencia. Commit inicial `d048325`.
+- Repositorio publico criado e populado via `gh repo create --public --push`:
+  https://github.com/kcedd34/arc-agi-2-curricular-solver
+- Achado de higiene (nao sensivel, mas fora do escopo do que deveria ser publicado):
+  `notebooks/offline_wheelhouse/` continha 125MB de wheels de terceiros (bitsandbytes,
+  unsloth, trl, xformers) de uma tentativa antiga de empacotamento offline (ADR 0048), sem
+  uso em nenhum caminho de reproducao documentado (nem do solver curricular, nem de
+  `docs/neural-line.md`). Removidos do rastreamento (`git rm --cached`, `.gitignore`
+  atualizado) em um segundo commit (`68e7849`) e reenviados. Os blobs continuam no historico
+  do primeiro commit (nao reescrevi historico sem autorizacao explicita); se o usuario quiser
+  purga-los do historico tambem, isso exige `git filter-repo`/BFG e um push com `--force`.
 
 ## Resultado
 
