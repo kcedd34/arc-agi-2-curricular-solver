@@ -1,0 +1,932 @@
+{
+ "schema_version": 1,
+ "updated_at": "2026-09-24",
+ "generated_from": "Prompt - Pos-tarefa 3: diagnostico, mapa de conceitos e tarefa 4 (Parte 4)",
+ "levels": {
+  "0": "percepcao",
+  "1": "estrutura",
+  "2": "relacoes",
+  "3": "acoes",
+  "4": "composicao"
+ },
+ "concepts": [
+  {
+   "id": "fundo",
+   "nome": "Fundo (cor de fundo)",
+   "nivel": 0,
+   "familia": "Grid e cores",
+   "descricao": "Identificar qual cor da grade representa o fundo (tipicamente a mais frequente ou 0).",
+   "pecas": {
+    "layout": null,
+    "seletor": "IsBackground (vocabulario)",
+    "conteudo_acao": null,
+    "condicao": "cor == fundo"
+   },
+   "pre_requisitos": [],
+   "status": {
+    "valor": "coberto",
+    "evidencia": "Corrigido apos inspecao de codigo na Parte 6 (a avaliacao inicial desta Parte 4 estava errada): `IsBackground` (vocabulary.py) recebe `background` como `Expr` generico, nao uma constante; `search/params.py::_background_candidates` testa cada cor candidata como fundo, com `search_task` verificando 100% dos pares de treino antes de aceitar - nao ha hardcode de cor 0 em nenhum ponto do caminho de busca real. Atualizado na Rodada 1 do ciclo continuo (ADR 0075, 2026-09-23): a fonte de candidatos deixou de ser `infer_palette` (uniao de cores de qualquer entrada de treino) e passou a ser `infer_colors_common_to_every_input` (intersecao, exigindo que o fundo esteja presente em toda entrada de treino), removendo candidatos logicamente impossiveis para tarefas com mais de um par de treino; `fill_content`'s papel de escrita (cor gravada no bloco) foi separado num parametro proprio, `fill_color`, alimentado por `infer_target_color_candidates`."
+   },
+   "tarefas_sonda": []
+  },
+  {
+   "id": "paleta",
+   "nome": "Paleta de cores",
+   "nivel": 0,
+   "familia": "Grid e cores",
+   "descricao": "Conjunto de cores presentes na grade e suas contagens.",
+   "pecas": {
+    "layout": null,
+    "seletor": null,
+    "conteudo_acao": null,
+    "condicao": "cor in paleta(grid)"
+   },
+   "pre_requisitos": [],
+   "status": {
+    "valor": "coberto",
+    "evidencia": "Corrigido apos inspecao de codigo na Parte 6: `search/pruning.py::infer_palette` (= `colors_by_frequency`) retorna as cores observadas nos pares de treino ordenadas por frequencia, nao especifica de uma tarefa. Atualizado na Rodada 1 do ciclo continuo (ADR 0075, 2026-09-23): `infer_palette` deixou de alimentar o parametro de deteccao `background` (trocado por `infer_colors_common_to_every_input`, intersecao); continua em uso pelo parametro de escrita `fill_color` via `infer_target_color_candidates`, que a reutiliza internamente."
+   },
+   "tarefas_sonda": []
+  },
+  {
+   "id": "dimensoes",
+   "nome": "Dimensoes da grade",
+   "nivel": 0,
+   "familia": "Grid e cores",
+   "descricao": "Altura e largura da grade de entrada e como elas determinam o tamanho da saida.",
+   "pecas": {
+    "layout": "identity_canvas_layout / block_grid_layout (ShapeOut)",
+    "seletor": null,
+    "conteudo_acao": null,
+    "condicao": null
+   },
+   "pre_requisitos": [],
+   "status": {
+    "valor": "coberto",
+    "evidencia": "vocab.ShapeOut e usado por identity_canvas_layout e block_grid_layout (src/curriculum/library/pieces/layout.py); 007bbfb7, 00576224 e ded97339 dependem disso."
+   },
+   "tarefas_sonda": []
+  },
+  {
+   "id": "segmentacao_4",
+   "nome": "Segmentacao em manchas (4-conectividade)",
+   "nivel": 0,
+   "familia": "Objetos",
+   "descricao": "Agrupar celulas nao-fundo conectadas ortogonalmente (cima/baixo/esquerda/direita) em objetos distintos.",
+   "pecas": {
+    "layout": null,
+    "seletor": "componente conexo por celula",
+    "conteudo_acao": null,
+    "condicao": "mesma componente"
+   },
+   "pre_requisitos": [
+    "fundo"
+   ],
+   "status": {
+    "valor": "coberto",
+    "evidencia": "Coberto pelo pacote de objetos (2026-09-22, ADR 0071/0072): `Objects`/`Partition` (spec/vocabulary.py) implementam segmentacao em componentes conexos por 4-conectividade como primitiva propria do interpretador (RN-CUR-14, nao importa perception/objects.py), comparada por teste automatizado contra perception/objects.py em tests/curriculum/spec/. Usada por object_layout.py (identity_canvas/crop_to_selected_object) via object_params.py::connectivity_single_color_candidates (inclui connectivity=4)."
+   },
+   "tarefas_sonda": []
+  },
+  {
+   "id": "segmentacao_8",
+   "nome": "Segmentacao em manchas (8-conectividade)",
+   "nivel": 0,
+   "familia": "Objetos",
+   "descricao": "Como segmentacao_4, mas incluindo vizinhanca diagonal.",
+   "pecas": {
+    "layout": null,
+    "seletor": "componente conexo por celula (8-viz)",
+    "conteudo_acao": null,
+    "condicao": "mesma componente"
+   },
+   "pre_requisitos": [
+    "fundo"
+   ],
+   "status": {
+    "valor": "coberto",
+    "evidencia": "Mesma implementacao de segmentacao_4 (Objects/Partition), com connectivity=8 tambem coberto por connectivity_single_color_candidates e pelo mesmo teste comparativo contra perception/objects.py (ADR 0071/0072, 2026-09-22)."
+   },
+   "tarefas_sonda": []
+  },
+  {
+   "id": "objeto_tamanho",
+   "nome": "Tamanho do objeto",
+   "nivel": 0,
+   "familia": "Objetos",
+   "descricao": "Numero de celulas que compoem um objeto segmentado.",
+   "pecas": {
+    "layout": null,
+    "seletor": "por objeto (tamanho)",
+    "conteudo_acao": null,
+    "condicao": "tamanho(objeto) op valor"
+   },
+   "pre_requisitos": [
+    "segmentacao_4"
+   ],
+   "status": {
+    "valor": "coberto",
+    "evidencia": "Coberto pelos predicados IsLargest/IsSmallest/SizeEq/SizeGt (spec/vocabulary.py, ADR 0071), que testam tamanho(objeto) diretamente sobre objetos segmentados (nao mais so o caso degenerado tamanho==1). Usados por object_selector.py::largest_object/smallest_object (2026-09-22)."
+   },
+   "tarefas_sonda": []
+  },
+  {
+   "id": "objeto_cor",
+   "nome": "Cor do objeto",
+   "nivel": 0,
+   "familia": "Objetos",
+   "descricao": "Cor (unica ou dominante) das celulas de um objeto segmentado.",
+   "pecas": {
+    "layout": null,
+    "seletor": "por objeto (cor)",
+    "conteudo_acao": null,
+    "condicao": "cor(objeto) op valor"
+   },
+   "pre_requisitos": [
+    "segmentacao_4"
+   ],
+   "status": {
+    "valor": "coberto",
+    "evidencia": "Coberto pelos predicados ObjectColorEq/HasUniqueColor (spec/vocabulary.py, ADR 0071), que agregam cor por objeto segmentado. Usados por object_selector.py::unique_color_object/objects_of_color (2026-09-22)."
+   },
+   "tarefas_sonda": []
+  },
+  {
+   "id": "objeto_posicao",
+   "nome": "Posicao do objeto",
+   "nivel": 0,
+   "familia": "Objetos",
+   "descricao": "Coordenadas (linha, coluna) de um objeto ou ponto marcador na grade.",
+   "pecas": {
+    "layout": null,
+    "seletor": "por celula/objeto (coordenada)",
+    "conteudo_acao": null,
+    "condicao": null
+   },
+   "pre_requisitos": [
+    "segmentacao_4"
+   ],
+   "status": {
+    "valor": "parcial",
+    "evidencia": "isolated_point_selected_body ainda cobre posicao de pontos isolados por celula (ded97339). O pacote de objetos (2026-09-22, ADR 0071/0072) acrescenta o predicado TouchesBorder, que testa uma nocao parcial de posicao (objeto toca a borda ou nao) via object_selector.py::objects_touching_border/objects_not_touching_border; nao ha ainda coordenada (linha, coluna) geral de objetos maiores, entao o status permanece parcial, nao coberto. Divisao de etiquetas (ADR 0085, 2026-09-23): tarefas cuja assinatura confirma uma familia estreita (halo, ligacao entre pontos, translacao, linhas de marcadores) deixam de carregar esta etiqueta; ela fica so como conceito de coordenada geral."
+   },
+   "tarefas_sonda": []
+  },
+  {
+   "id": "objeto_caixa_envolvente",
+   "nome": "Caixa envolvente do objeto",
+   "nivel": 0,
+   "familia": "Objetos",
+   "descricao": "Menor retangulo alinhado aos eixos que contem todas as celulas de um objeto.",
+   "pecas": {
+    "layout": "recorte pela caixa",
+    "seletor": "por objeto (bbox)",
+    "conteudo_acao": null,
+    "condicao": null
+   },
+   "pre_requisitos": [
+    "segmentacao_4"
+   ],
+   "status": {
+    "valor": "coberto",
+    "evidencia": "Coberto pela acao FillBbox e pelo layout ShapeOut (spec/vocabulary.py, ADR 0071), que derivam a caixa envolvente de uma regiao selecionada. Usados por object_content.py::fill_bbox_selected e object_layout.py::crop_to_selected_object (2026-09-22)."
+   },
+   "tarefas_sonda": []
+  },
+  {
+   "id": "objeto_contorno",
+   "nome": "Contorno do objeto",
+   "nivel": 0,
+   "familia": "Objetos",
+   "descricao": "Celulas na borda externa de um objeto, distintas do seu interior.",
+   "pecas": {
+    "layout": null,
+    "seletor": "por objeto (tem ou nao interior)",
+    "conteudo_acao": "repintar borda ou interior do objeto",
+    "condicao": null
+   },
+   "pre_requisitos": [
+    "segmentacao_4"
+   ],
+   "status": {
+    "valor": "coberto",
+    "evidencia": "Coberto pelo pacote da Rodada 6 (2026-09-23, ADR 0081): acao RecolorObjectPart (borda/interior, vizinhanca 4), predicado HasInterior, pecas de conteudo recolor_border_selected/recolor_interior_selected/hollow_selected/peel_selected e seletores objects_with_interior/objects_without_interior (object_content.py, object_selector.py). Desbloqueio direto medido 0 no pool sonda; halo externo (contorno que cresce a regiao) nao coberto."
+   },
+   "tarefas_sonda": []
+  },
+  {
+   "id": "grade_de_blocos",
+   "nome": "Grade de blocos",
+   "nivel": 1,
+   "familia": "Layout",
+   "descricao": "Particionar a grade de saida em R x C blocos, cada um do tamanho da entrada.",
+   "pecas": {
+    "layout": "block_grid_layout",
+    "seletor": null,
+    "conteudo_acao": null,
+    "condicao": null
+   },
+   "pre_requisitos": [
+    "dimensoes"
+   ],
+   "status": {
+    "valor": "coberto",
+    "evidencia": "src/curriculum/library/pieces/layout.py:block_grid_layout; usado por 007bbfb7 e 00576224."
+   },
+   "tarefas_sonda": []
+  },
+  {
+   "id": "tela_mesmo_tamanho",
+   "nome": "Tela de mesmo tamanho (copia da entrada)",
+   "nivel": 1,
+   "familia": "Layout",
+   "descricao": "Saida com as mesmas dimensoes da entrada, inicializada como copia dela.",
+   "pecas": {
+    "layout": "identity_canvas_layout",
+    "seletor": null,
+    "conteudo_acao": null,
+    "condicao": null
+   },
+   "pre_requisitos": [
+    "dimensoes"
+   ],
+   "status": {
+    "valor": "coberto",
+    "evidencia": "src/curriculum/library/pieces/layout.py:identity_canvas_layout; usado por ded97339."
+   },
+   "tarefas_sonda": []
+  },
+  {
+   "id": "recorte",
+   "nome": "Recorte (crop)",
+   "nivel": 1,
+   "familia": "Layout",
+   "descricao": "Saida e um subretangulo da entrada (ex: a caixa envolvente de um objeto).",
+   "pecas": {
+    "layout": "crop_layout (novo)",
+    "seletor": null,
+    "conteudo_acao": "copiar sub-regiao",
+    "condicao": null
+   },
+   "pre_requisitos": [
+    "objeto_caixa_envolvente"
+   ],
+   "status": {
+    "valor": "coberto",
+    "evidencia": "Coberto por object_layout.py::crop_to_selected_object, cujo ShapeOut (spec/vocabulary.py, ADR 0071) deriva a forma de saida dinamicamente da caixa envolvente do objeto selecionado (nao fixa/proporcional como block_grid/identity_canvas), combinado com object_content.py::crop_content (2026-09-22, ADR 0072)."
+   },
+   "tarefas_sonda": []
+  },
+  {
+   "id": "espelhar",
+   "nome": "Espelhar",
+   "nivel": 1,
+   "familia": "Geometria",
+   "descricao": "Refletir o conteudo horizontal ou verticalmente.",
+   "pecas": {
+    "layout": null,
+    "seletor": null,
+    "conteudo_acao": "flip_content",
+    "condicao": null
+   },
+   "pre_requisitos": [
+    "dimensoes"
+   ],
+   "status": {
+    "valor": "coberto",
+    "evidencia": "src/curriculum/library/pieces/content.py:flip_content."
+   },
+   "tarefas_sonda": []
+  },
+  {
+   "id": "girar",
+   "nome": "Girar (rotacao 90/180/270)",
+   "nivel": 1,
+   "familia": "Geometria",
+   "descricao": "Rotacionar o conteudo em multiplos de 90 graus.",
+   "pecas": {
+    "layout": null,
+    "seletor": null,
+    "conteudo_acao": "rotate_content (novo)",
+    "condicao": null
+   },
+   "pre_requisitos": [
+    "dimensoes"
+   ],
+   "status": {
+    "valor": "ausente",
+    "evidencia": "content.py nao tem rotacao, apenas flip_content (espelhamento)."
+   },
+   "tarefas_sonda": []
+  },
+  {
+   "id": "transpor",
+   "nome": "Transpor",
+   "nivel": 1,
+   "familia": "Geometria",
+   "descricao": "Trocar linhas por colunas (reflexao na diagonal).",
+   "pecas": {
+    "layout": null,
+    "seletor": null,
+    "conteudo_acao": "transpose_content (novo)",
+    "condicao": null
+   },
+   "pre_requisitos": [
+    "dimensoes"
+   ],
+   "status": {
+    "valor": "ausente",
+    "evidencia": "Nao existe piece de transposicao."
+   },
+   "tarefas_sonda": []
+  },
+  {
+   "id": "simetria_detectar",
+   "nome": "Detectar simetria",
+   "nivel": 1,
+   "familia": "Geometria",
+   "descricao": "Verificar se a grade (ou objeto) e simetrica sob espelhamento/rotacao/transposicao.",
+   "pecas": {
+    "layout": null,
+    "seletor": null,
+    "conteudo_acao": null,
+    "condicao": "grid == transformacao(grid)"
+   },
+   "pre_requisitos": [
+    "espelhar",
+    "girar",
+    "transpor"
+   ],
+   "status": {
+    "valor": "ausente",
+    "evidencia": "Nenhuma condicao de simetria existe; depende de girar/transpor que tambem estao ausentes."
+   },
+   "tarefas_sonda": []
+  },
+  {
+   "id": "simetria_completar",
+   "nome": "Completar simetria",
+   "nivel": 1,
+   "familia": "Geometria",
+   "descricao": "Preencher celulas faltantes/mascaradas usando a simetria detectada.",
+   "pecas": {
+    "layout": null,
+    "seletor": "celulas faltantes",
+    "conteudo_acao": "copiar do espelho/rotacao correspondente",
+    "condicao": null
+   },
+   "pre_requisitos": [
+    "simetria_detectar"
+   ],
+   "status": {
+    "valor": "ausente",
+    "evidencia": "Depende de simetria_detectar, ausente."
+   },
+   "tarefas_sonda": []
+  },
+  {
+   "id": "contagem_maior",
+   "nome": "Maior (objeto)",
+   "nivel": 2,
+   "familia": "Contagem",
+   "descricao": "Selecionar o objeto de maior tamanho entre os segmentados.",
+   "pecas": {
+    "layout": null,
+    "seletor": "argmax por tamanho",
+    "conteudo_acao": null,
+    "condicao": null
+   },
+   "pre_requisitos": [
+    "segmentacao_4",
+    "objeto_tamanho"
+   ],
+   "status": {
+    "valor": "coberto",
+    "evidencia": "Coberto por object_selector.py::largest_object, que usa o predicado IsLargest (spec/vocabulary.py, ADR 0071) como argmax por tamanho entre os objetos segmentados (2026-09-22)."
+   },
+   "tarefas_sonda": []
+  },
+  {
+   "id": "contagem_menor",
+   "nome": "Menor (objeto)",
+   "nivel": 2,
+   "familia": "Contagem",
+   "descricao": "Selecionar o objeto de menor tamanho entre os segmentados.",
+   "pecas": {
+    "layout": null,
+    "seletor": "argmin por tamanho",
+    "conteudo_acao": null,
+    "condicao": null
+   },
+   "pre_requisitos": [
+    "segmentacao_4",
+    "objeto_tamanho"
+   ],
+   "status": {
+    "valor": "coberto",
+    "evidencia": "Coberto por object_selector.py::smallest_object, que usa o predicado IsSmallest (spec/vocabulary.py, ADR 0071) como argmin por tamanho entre os objetos segmentados (2026-09-22)."
+   },
+   "tarefas_sonda": []
+  },
+  {
+   "id": "contagem_quantos",
+   "nome": "Quantos (contagem de objetos/celulas)",
+   "nivel": 2,
+   "familia": "Contagem",
+   "descricao": "Contar quantos objetos ou celulas satisfazem uma condicao.",
+   "pecas": {
+    "layout": null,
+    "seletor": null,
+    "conteudo_acao": "escrever N (contagem)",
+    "condicao": null
+   },
+   "pre_requisitos": [
+    "segmentacao_4"
+   ],
+   "status": {
+    "valor": "ausente",
+    "evidencia": "Nenhuma piece agrega contagens; vocabulario atual opera celula a celula."
+   },
+   "tarefas_sonda": []
+  },
+  {
+   "id": "contagem_mais_frequente",
+   "nome": "Mais frequente (cor ou forma)",
+   "nivel": 2,
+   "familia": "Contagem",
+   "descricao": "Identificar a cor ou forma de objeto mais comum na grade.",
+   "pecas": {
+    "layout": null,
+    "seletor": "argmax por frequencia",
+    "conteudo_acao": null,
+    "condicao": null
+   },
+   "pre_requisitos": [
+    "paleta",
+    "segmentacao_4"
+   ],
+   "status": {
+    "valor": "ausente",
+    "evidencia": "Depende de paleta (parcial) e segmentacao_4 (ausente). Divisao de etiquetas (ADR 0085): tarefas que pintam a cor de frequencia unica extrema passam para cor_extrema_frequencia; o restante permanece aqui, sem assinatura confirmada."
+   },
+   "tarefas_sonda": []
+  },
+  {
+   "id": "contagem_unico",
+   "nome": "Unico (objeto diferente dos demais)",
+   "nivel": 2,
+   "familia": "Contagem",
+   "descricao": "Selecionar o unico objeto cuja cor/forma difere de todos os outros.",
+   "pecas": {
+    "layout": null,
+    "seletor": "objeto com contagem == 1",
+    "conteudo_acao": null,
+    "condicao": null
+   },
+   "pre_requisitos": [
+    "segmentacao_4",
+    "objeto_cor"
+   ],
+   "status": {
+    "valor": "coberto",
+    "evidencia": "Coberto por object_selector.py::unique_color_object, que usa o predicado HasUniqueColor (spec/vocabulary.py, ADR 0071) para selecionar o unico objeto cuja cor nao e compartilhada por nenhum outro objeto (2026-09-22)."
+   },
+   "tarefas_sonda": []
+  },
+  {
+   "id": "topologia_dentro",
+   "nome": "Dentro",
+   "nivel": 2,
+   "familia": "Topologia",
+   "descricao": "Uma celula/objeto esta no interior fechado de outro objeto.",
+   "pecas": {
+    "layout": null,
+    "seletor": "teste de interior (flood-fill a partir da borda)",
+    "conteudo_acao": null,
+    "condicao": "dentro(objeto_a, objeto_b)"
+   },
+   "pre_requisitos": [
+    "segmentacao_4",
+    "objeto_contorno"
+   ],
+   "status": {
+    "valor": "coberto",
+    "evidencia": "Coberto pelo pacote da Rodada 7 (2026-09-23, ADR 0082): acao FillEnclosed (buraco = celula nao-membro do bbox sem caminho 4-conexo ate fora do bbox sem cruzar o objeto), predicado HasHole, helper spec/_object_holes.py, peca de conteudo fill_holes_selected e seletores objects_with_hole/objects_without_hole. Limite conhecido: buracos com outro objeto dentro (aninhamento) sao sobrescritos; sem preenchimento de buraco em nivel de grade."
+   },
+   "tarefas_sonda": []
+  },
+  {
+   "id": "topologia_fora",
+   "nome": "Fora",
+   "nivel": 2,
+   "familia": "Topologia",
+   "descricao": "Complemento de 'dentro': alcancavel a partir da borda da grade sem cruzar um objeto.",
+   "pecas": {
+    "layout": null,
+    "seletor": "flood-fill a partir da borda",
+    "conteudo_acao": null,
+    "condicao": "fora(celula, objeto)"
+   },
+   "pre_requisitos": [
+    "topologia_dentro"
+   ],
+   "status": {
+    "valor": "ausente",
+    "evidencia": "Depende de topologia_dentro, ausente."
+   },
+   "tarefas_sonda": []
+  },
+  {
+   "id": "topologia_tocando",
+   "nome": "Tocando",
+   "nivel": 2,
+   "familia": "Topologia",
+   "descricao": "Dois objetos compartilham pelo menos uma adjacencia ortogonal ou diagonal.",
+   "pecas": {
+    "layout": null,
+    "seletor": "adjacencia entre componentes",
+    "conteudo_acao": null,
+    "condicao": "tocando(objeto_a, objeto_b)"
+   },
+   "pre_requisitos": [
+    "segmentacao_4"
+   ],
+   "status": {
+    "valor": "ausente",
+    "evidencia": "Depende de segmentacao_4, ausente."
+   },
+   "tarefas_sonda": []
+  },
+  {
+   "id": "topologia_cercado",
+   "nome": "Cercado",
+   "nivel": 2,
+   "familia": "Topologia",
+   "descricao": "Um objeto/celula esta completamente rodeado por outra cor/objeto.",
+   "pecas": {
+    "layout": null,
+    "seletor": "todos os vizinhos pertencem a outro objeto",
+    "conteudo_acao": null,
+    "condicao": "cercado(objeto)"
+   },
+   "pre_requisitos": [
+    "topologia_dentro",
+    "topologia_tocando"
+   ],
+   "status": {
+    "valor": "ausente",
+    "evidencia": "Depende de topologia_dentro e topologia_tocando, ambos ausentes."
+   },
+   "tarefas_sonda": []
+  },
+  {
+   "id": "topologia_adjacente",
+   "nome": "Adjacente",
+   "nivel": 2,
+   "familia": "Topologia",
+   "descricao": "Duas celulas/objetos estao a distancia 1 (sem necessariamente tocar em area).",
+   "pecas": {
+    "layout": null,
+    "seletor": "distancia == 1",
+    "conteudo_acao": null,
+    "condicao": "adjacente(a, b)"
+   },
+   "pre_requisitos": [
+    "objeto_posicao"
+   ],
+   "status": {
+    "valor": "ausente",
+    "evidencia": "objeto_posicao e apenas parcial (so para pontos isolados); nao ha teste de adjacencia generico."
+   },
+   "tarefas_sonda": []
+  },
+  {
+   "id": "raio_ate_borda",
+   "nome": "Raio ate a borda",
+   "nivel": 3,
+   "familia": "Tracar",
+   "descricao": "Tracar uma linha reta a partir de um ponto marcador ate a borda da grade, em uma ou mais direcoes.",
+   "pecas": {
+    "layout": "identity_canvas_layout",
+    "seletor": "isolated_point_selected_body (ponto marcador)",
+    "conteudo_acao": "ray_to_border_content (novo)",
+    "condicao": "parar na borda"
+   },
+   "pre_requisitos": [
+    "objeto_posicao",
+    "tela_mesmo_tamanho"
+   ],
+   "status": {
+    "valor": "ausente",
+    "evidencia": "SegmentTo generalizado (ADR 0068, v4) com stop_condition='border', mas 0/200 no pool sonda ainda (learning-curve.md, checkpoint v4): a regra real das ancoras de raio_ate_borda amostradas (ex. d037b0a7, direcao unica; 1d398264, padrao diagonal) e mais complexa que um raio ortogonal simples ate a borda. Mecanismo existe, uso comprovado ainda nao."
+   },
+   "tarefas_sonda": []
+  },
+  {
+   "id": "raio_ate_obstaculo",
+   "nome": "Raio ate obstaculo",
+   "nivel": 3,
+   "familia": "Tracar",
+   "descricao": "Tracar uma linha reta a partir de um ponto marcador ate a primeira celula nao-fundo encontrada (de qualquer cor).",
+   "pecas": {
+    "layout": "identity_canvas_layout",
+    "seletor": "isolated_point_selected_body",
+    "conteudo_acao": "ray_to_obstacle_content (novo)",
+    "condicao": "parar em primeira celula != fundo (qualquer cor)"
+   },
+   "pre_requisitos": [
+    "raio_ate_borda"
+   ],
+   "status": {
+    "valor": "ausente",
+    "evidencia": "SegmentTo generalizado (ADR 0068, v4) com stop_condition='any_obstacle', mas 0/200 no pool sonda ainda (learning-curve.md, checkpoint v4): as ancoras de raio_ate_obstaculo amostradas usam marcadores multi-celula, que o seletor isolated_point (celula isolada unica) nunca seleciona como origem, independente do stop_condition. Mecanismo existe, uso comprovado ainda nao."
+   },
+   "tarefas_sonda": []
+  },
+  {
+   "id": "ligar_pontos_mesma_cor",
+   "nome": "Ligar pontos da mesma cor",
+   "nivel": 3,
+   "familia": "Tracar",
+   "descricao": "Tracar um segmento reto entre dois pontos isolados da mesma cor que compartilham linha ou coluna.",
+   "pecas": {
+    "layout": "identity_canvas_layout",
+    "seletor": "isolated_point_selected_body",
+    "conteudo_acao": "draw_lines_content / keep_content",
+    "condicao": "IsIsolated + SegmentTo mesma cor"
+   },
+   "pre_requisitos": [
+    "objeto_posicao",
+    "tela_mesmo_tamanho"
+   ],
+   "status": {
+    "valor": "parcial",
+    "evidencia": "Resolve ded97339 (o exemplar de origem), mas ainda 0/7 no subtipo do pool sonda apos a generalizacao de SegmentTo (ADR 0068, checkpoint v4, learning-curve.md): a generalizacao do stop_condition foi necessaria mas nao suficiente, status permanece parcial."
+   },
+   "tarefas_sonda": []
+  },
+  {
+   "id": "preencher_linha_coluna",
+   "nome": "Preencher linha ou coluna",
+   "nivel": 3,
+   "familia": "Tracar",
+   "descricao": "Preencher uma linha ou coluna inteira a partir de um marcador, independente de obstaculos.",
+   "pecas": {
+    "layout": "identity_canvas_layout",
+    "seletor": "isolated_point_selected_body",
+    "conteudo_acao": "fill_line_content (novo)",
+    "condicao": "linha/coluna inteira"
+   },
+   "pre_requisitos": [
+    "raio_ate_borda"
+   ],
+   "status": {
+    "valor": "ausente",
+    "evidencia": "Variante sem condicao de parada por obstaculo; nao existe piece equivalente hoje."
+   },
+   "tarefas_sonda": []
+  },
+  {
+   "id": "cair_gravidade",
+   "nome": "Cair (gravidade)",
+   "nivel": 3,
+   "familia": "Mover",
+   "descricao": "Objetos caem na direcao de um eixo ate encontrar a borda ou outro objeto.",
+   "pecas": {
+    "layout": "identity_canvas_layout",
+    "seletor": "por objeto",
+    "conteudo_acao": "gravity_content (novo)",
+    "condicao": "parar em borda/obstaculo"
+   },
+   "pre_requisitos": [
+    "segmentacao_4",
+    "objeto_posicao"
+   ],
+   "status": {
+    "valor": "ausente",
+    "evidencia": "Depende de segmentacao_4 (ausente); nenhuma piece de movimento de objeto existe."
+   },
+   "tarefas_sonda": []
+  },
+  {
+   "id": "deslizar_ate_encostar",
+   "nome": "Deslizar ate encostar",
+   "nivel": 3,
+   "familia": "Mover",
+   "descricao": "Como cair, mas em direcao arbitraria (nao so vertical) ate encostar em obstaculo.",
+   "pecas": {
+    "layout": "identity_canvas_layout",
+    "seletor": "por objeto",
+    "conteudo_acao": "slide_content (novo)",
+    "condicao": "parar em obstaculo"
+   },
+   "pre_requisitos": [
+    "cair_gravidade"
+   ],
+   "status": {
+    "valor": "ausente",
+    "evidencia": "Generalizacao de cair_gravidade, tambem ausente."
+   },
+   "tarefas_sonda": []
+  },
+  {
+   "id": "transladar",
+   "nome": "Transladar",
+   "nivel": 3,
+   "familia": "Mover",
+   "descricao": "Deslocar um objeto por um vetor fixo (sem condicao de parada por colisao).",
+   "pecas": {
+    "layout": "identity_canvas_layout",
+    "seletor": "por objeto",
+    "conteudo_acao": "translate_content (novo)",
+    "condicao": null
+   },
+   "pre_requisitos": [
+    "objeto_posicao"
+   ],
+   "status": {
+    "valor": "ausente",
+    "evidencia": "Nenhuma piece de translacao de objeto existe."
+   },
+   "tarefas_sonda": []
+  },
+  {
+   "id": "preencher_regiao_fechada",
+   "nome": "Preencher regiao fechada",
+   "nivel": 3,
+   "familia": "Preencher e recolorir",
+   "descricao": "Preencher com uma cor todas as celulas de fundo cercadas por um contorno.",
+   "pecas": {
+    "layout": "identity_canvas_layout",
+    "seletor": "topologia_dentro",
+    "conteudo_acao": "fill_content (adaptado)",
+    "condicao": null
+   },
+   "pre_requisitos": [
+    "topologia_dentro"
+   ],
+   "status": {
+    "valor": "ausente",
+    "evidencia": "Depende de topologia_dentro, ausente; fill_content atual preenche blocos inteiros (grade_de_blocos), nao regioes fechadas arbitrarias."
+   },
+   "tarefas_sonda": []
+  },
+  {
+   "id": "recolorir_por_propriedade",
+   "nome": "Recolorir por propriedade do objeto",
+   "nivel": 3,
+   "familia": "Preencher e recolorir",
+   "descricao": "Atribuir uma nova cor a um objeto com base em uma propriedade (tamanho, posicao, contagem).",
+   "pecas": {
+    "layout": "identity_canvas_layout",
+    "seletor": "por objeto",
+    "conteudo_acao": "recolor_content (novo)",
+    "condicao": "propriedade(objeto) -> cor"
+   },
+   "pre_requisitos": [
+    "objeto_tamanho",
+    "objeto_cor"
+   ],
+   "status": {
+    "valor": "coberto",
+    "evidencia": "Coberto por object_content.py::recolor_selected_content, que usa a acao RecolorObject (spec/vocabulary.py, ADR 0071) sobre objetos selecionados por propriedade (largest_object, smallest_object, unique_color_object, objects_of_color) via object_selector.py. Depende de objeto_tamanho/objeto_cor, ambos agora cobertos (2026-09-22)."
+   },
+   "tarefas_sonda": []
+  },
+  {
+   "id": "regra_por_objeto_chave",
+   "nome": "Regra determinada por objeto/cor chave",
+   "nivel": 4,
+   "familia": "Regras contextuais",
+   "descricao": "A tarefa define, dentro de si mesma, qual objeto ou cor atua como 'chave' que determina a regra aplicada aos demais.",
+   "pecas": {
+    "layout": null,
+    "seletor": "objeto chave (por unicidade, posicao fixa, etc)",
+    "conteudo_acao": "aplicar regra indexada pela chave",
+    "condicao": null
+   },
+   "pre_requisitos": [
+    "contagem_unico",
+    "recolorir_por_propriedade"
+   ],
+   "status": {
+    "valor": "parcial",
+    "evidencia": "Rodada 16 (ADR 0098): nivel 4 PARCIAL. Selecao relacional por extremo e toward cobrem 3 tarefas do pool (2 arc2_only de aceitacao, 1 herdada); sonda arc2_only 0/35."
+   },
+   "tarefas_sonda": []
+  },
+  {
+   "id": "sobreposicao_booleana_subgrids",
+   "nome": "Sobreposicao booleana de subgrids",
+   "nivel": 3,
+   "familia": "Grid e cores",
+   "descricao": "Combina dois subgrids do mesmo tamanho celula a celula por uma operacao booleana (XOR, NOR, AND) e pinta o resultado.",
+   "pecas": {
+    "layout": "grade do tamanho de um subgrid",
+    "seletor": null,
+    "conteudo_acao": "combinar dois subgrids por operacao booleana",
+    "condicao": null
+   },
+   "pre_requisitos": [
+    "grade_de_blocos"
+   ],
+   "status": {
+    "valor": "coberto",
+    "evidencia": "Rodada 13 (ADR 0094, 2026-09-24): TransformOp OverlayParts + regiao WholeGrid + pacote library/grid (divisao em n x m partes com/sem divisor, tabela de mascara aprendida dos pares de treino). Varredura: 28 tarefas com candidato, 28 resolvidas em @1 (13 ARC-1 training, 15 ARC-1 evaluation por ID, 0 arc2_only); sonda 14 -> 18."
+   },
+   "tarefas_sonda": [
+    "99b1bc43",
+    "fafffa47",
+    "0c9aba6e"
+   ]
+  },
+  {
+   "id": "ampliacao_por_bloco_solido",
+   "nome": "Ampliacao com bloco solido por celula",
+   "nivel": 3,
+   "familia": "Layout",
+   "descricao": "Cada celula da entrada vira um bloco de cor solida na saida (fator de escala por celula), sem repetir o padrao da entrada.",
+   "pecas": {
+    "layout": "tela ampliada por fator inteiro",
+    "seletor": null,
+    "conteudo_acao": "preencher bloco com a cor da celula de origem",
+    "condicao": null
+   },
+   "pre_requisitos": [
+    "dimensoes"
+   ],
+   "status": {
+    "valor": "ausente",
+    "evidencia": "Lacuna descoberta na Rodada 5 (2026-09-23): 9172f3a0 tem layout ampliado mas o conteudo (bloco de cor solida por celula) nao e expressavel pelas pecas de ladrilho existentes."
+   },
+   "tarefas_sonda": [
+    "9172f3a0"
+   ]
+  },
+  {
+   "id": "objeto_halo",
+   "nome": "Halo do objeto",
+   "nivel": 2,
+   "familia": "Objetos",
+   "descricao": "Pintar o anel de celulas de fundo adjacentes (4 ou 8) a um objeto, sem tocar outros objetos.",
+   "pecas": {
+    "layout": "identity_canvas_layout",
+    "seletor": "objects_of_color (por cor)",
+    "conteudo_acao": "halo4_selected / halo8_selected",
+    "condicao": null
+   },
+   "pre_requisitos": [
+    "segmentacao_4"
+   ],
+   "status": {
+    "valor": "coberto",
+    "evidencia": "Coberto pelo pacote da Rodada 8 (2026-09-23, ADR 0084): operacao Halo(color, diagonal, background), helper spec/_object_halo.py, pecas de conteudo halo4_selected/halo8_selected. Uso comprovado: dc1df850 (probe, halo8, antifraude limpo). Etiqueta criada pela divisao de objeto_posicao (ADR 0085)."
+   },
+   "tarefas_sonda": []
+  },
+  {
+   "id": "objeto_linha_marcadores",
+   "nome": "Linhas tracadas a partir de marcadores",
+   "nivel": 3,
+   "familia": "Tracar",
+   "descricao": "Adicionar celulas alinhadas (linha, coluna ou diagonal) a marcadores existentes, sem ser halo nem ligacao entre pontos da mesma cor.",
+   "pecas": {
+    "layout": "identity_canvas_layout",
+    "seletor": "isolated_point_selected_body (ponto marcador)",
+    "conteudo_acao": "SegmentTo (ADR 0068)",
+    "condicao": null
+   },
+   "pre_requisitos": [
+    "segmentacao_4",
+    "tela_mesmo_tamanho"
+   ],
+   "status": {
+    "valor": "ausente",
+    "evidencia": "Familia heterogenea (raios, diagonais, ligacoes entre marcadores de cores diferentes). SegmentTo (ADR 0068) resolveu 0/7 nesta familia. Etiqueta criada pela divisao de objeto_posicao (ADR 0085), proxy por assinatura dos pares de treino."
+   },
+   "tarefas_sonda": []
+  },
+  {
+   "id": "cor_extrema_frequencia",
+   "nome": "Cor de frequencia extrema",
+   "nivel": 2,
+   "familia": "Contagem",
+   "descricao": "Pintar com a cor de frequencia unica maxima ou minima entre as cores de primeiro plano da entrada.",
+   "pecas": {
+    "layout": null,
+    "seletor": "argmax/argmin por frequencia de cor",
+    "conteudo_acao": null,
+    "condicao": null
+   },
+   "pre_requisitos": [
+    "paleta",
+    "segmentacao_4"
+   ],
+   "status": {
+    "valor": "ausente",
+    "evidencia": "Etiqueta criada pela divisao de contagem_mais_frequente (ADR 0085): todas as celulas alteradas de todos os pares de treino recebem a cor de frequencia unica maxima (ou minima) da entrada."
+   },
+   "tarefas_sonda": []
+  }
+ ]
+}

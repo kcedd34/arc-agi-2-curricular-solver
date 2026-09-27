@@ -1,0 +1,2369 @@
+{
+ "summary": {
+  "tasks": 233,
+  "crashed": [],
+  "explain_train": 11,
+  "explain_train_and_test": 10,
+  "explain_nothing": 222,
+  "clean_explain_train": 5,
+  "clean_explain_train_and_test": 5,
+  "train_task_ids": [
+   "17b866bd",
+   "1b59e163",
+   "342dd610",
+   "458e3a53",
+   "5a719d11",
+   "5ad8a7c0",
+   "ad38a9d0",
+   "d6e50e54",
+   "e734a0e8",
+   "ecb67b6d",
+   "f1bcbc2c"
+  ],
+  "ceiling_task_ids": [
+   "17b866bd",
+   "1b59e163",
+   "342dd610",
+   "458e3a53",
+   "5a719d11",
+   "5ad8a7c0",
+   "ad38a9d0",
+   "d6e50e54",
+   "e734a0e8",
+   "f1bcbc2c"
+  ],
+  "seconds_total": 77893.1
+ },
+ "verdicts": [
+  {
+   "task_id": "1190bc91",
+   "seconds": 284.08578604995273,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "11dc524f",
+   "seconds": 288.0838177849655,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "13f06aa5",
+   "seconds": 92.76952298602555,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "1478ab18",
+   "seconds": 190.39302084600786,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "14b8e18c",
+   "seconds": 63.61697328602895,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "15660dd6",
+   "seconds": 5.229432419990189,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "17829a00",
+   "seconds": 221.09059383301064,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "17b866bd",
+   "seconds": 740.6020607590326,
+   "train_hits": 22,
+   "test_hits": 42,
+   "clean_train": true,
+   "clean_test": true,
+   "example": "layout=identity_canvas; partition input as objects(background=4,connectivity=4,single_color=True) -> R; recolor_clear_corner_nw(corner_marker:0) on [closed == 0]",
+   "error": null
+  },
+  {
+   "task_id": "18286ef8",
+   "seconds": 1042.843799867027,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "182e5d0f",
+   "seconds": 497.6882392260013,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "18447a8d",
+   "seconds": 305.36388813197846,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "1a244afd",
+   "seconds": 279.66387714404846,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "1b59e163",
+   "seconds": 2644.9735449280124,
+   "train_hits": 10,
+   "test_hits": 20,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "layout=identity_canvas; partition input as objects(background=4,connectivity=8,single_color=False) -> R; stamp(stamp:('key', 'by_key', 'all')) on [colors == max(colors)] toward [size == min(size)]",
+   "error": null
+  },
+  {
+   "task_id": "1b8318e3",
+   "seconds": 542.3395263929851,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "1be83260",
+   "seconds": 12.5282569740084,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "1d61978c",
+   "seconds": 205.0999334109947,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "1e5d6875",
+   "seconds": 200.49241887097014,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "1efba499",
+   "seconds": 78.46101836900925,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "20fb2937",
+   "seconds": 12.650042829976883,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "22208ba4",
+   "seconds": 91.00473089894513,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "22425bda",
+   "seconds": 1.8168294030474499,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "22806e14",
+   "seconds": 83.44150642497698,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "230f2e48",
+   "seconds": 338.6664006970241,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "252143c9",
+   "seconds": 217.7506337200175,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "25c199f5",
+   "seconds": 2.228858405025676,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "25e02866",
+   "seconds": 5.568656315968838,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "2601afb7",
+   "seconds": 152.63855830702232,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "278e5215",
+   "seconds": 3.811664274020586,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "2a28add5",
+   "seconds": 755.4302446990041,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "2b9ef948",
+   "seconds": 309.6957569050137,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "2ccd9fef",
+   "seconds": 5.66653955396032,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "2de01db2",
+   "seconds": 212.9333212869824,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "2e65ae53",
+   "seconds": 279.739253266016,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "2f767503",
+   "seconds": 572.5032476659981,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "2faf500b",
+   "seconds": 147.7334385580034,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "305b1341",
+   "seconds": 1073.0230877419817,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "30f42897",
+   "seconds": 55.724769880995154,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "320afe60",
+   "seconds": 208.67910677898908,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "33067df9",
+   "seconds": 2.719599439005833,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "332202d5",
+   "seconds": 1211.414205558016,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "337b420f",
+   "seconds": 1.6495476170093752,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "342ae2ed",
+   "seconds": 276.4856413010275,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "342dd610",
+   "seconds": 125.27479466598015,
+   "train_hits": 2,
+   "test_hits": 4,
+   "clean_train": true,
+   "clean_test": true,
+   "example": "layout=identity_canvas; partition input as objects(background=8,connectivity=4,single_color=True) -> R; translate_selected(shift[color]={(1,): (0, 1), (2,): (0, -2), (7,): (-2, 0), (9,): (2, 0)}) on [all]",
+   "error": null
+  },
+  {
+   "task_id": "34cfa167",
+   "seconds": 365.21537961403374,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "37ce87bb",
+   "seconds": 160.00813306303462,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "396d80d7",
+   "seconds": 15.847574025043286,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "3ad05f52",
+   "seconds": 645.7098074179958,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "3bd292e8",
+   "seconds": 148.09996891900664,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "3cd86f4f",
+   "seconds": 2.028666675032582,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "3d588dc9",
+   "seconds": 121.47330118797254,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "3d6c6e23",
+   "seconds": 199.20766226697015,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "412b6263",
+   "seconds": 2.095462591969408,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "41ace6b5",
+   "seconds": 511.22417042101733,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "42f14c03",
+   "seconds": 8.801235930004623,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "42f83767",
+   "seconds": 6.280107237980701,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "458e3a53",
+   "seconds": 27.6029197780299,
+   "train_hits": 1,
+   "test_hits": 2,
+   "clean_train": true,
+   "clean_test": true,
+   "example": "layout=panel_grid(mode=summary,axis=none,fill=0)",
+   "error": null
+  },
+  {
+   "task_id": "465b7d93",
+   "seconds": 125.79848062596284,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "46c35fc7",
+   "seconds": 547.5110011850484,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "470c91de",
+   "seconds": 63.796719800971914,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "48634b99",
+   "seconds": 448.1903974090237,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "494ef9d7",
+   "seconds": 779.5947443689802,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "4a1cacc2",
+   "seconds": 55.48679902998265,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "4df5b0ae",
+   "seconds": 149.5606447259779,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "4e7e0eb9",
+   "seconds": 597.1133058990235,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "5034a0b5",
+   "seconds": 556.222805407946,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "50c07299",
+   "seconds": 63.41237706801621,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "522fdd07",
+   "seconds": 114.18313914601458,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "52364a65",
+   "seconds": 499.475307494984,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "52df9849",
+   "seconds": 102.87793769402197,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "538b439f",
+   "seconds": 442.52953081100713,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "54dc2872",
+   "seconds": 1348.6755189470132,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "5587a8d0",
+   "seconds": 1.7843771879561245,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "5623160b",
+   "seconds": 578.3919531860156,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "5751f35e",
+   "seconds": 504.1139004639699,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "5792cb4d",
+   "seconds": 1107.861473419005,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "57edb29d",
+   "seconds": 12.117965123965405,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "58c02a16",
+   "seconds": 175.02037071698578,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "5a719d11",
+   "seconds": 7790.806145720999,
+   "train_hits": 1,
+   "test_hits": 2,
+   "clean_train": true,
+   "clean_test": true,
+   "example": "layout=panel_grid(mode=swap,axis=row,fill=0)",
+   "error": null
+  },
+  {
+   "task_id": "5ad8a7c0",
+   "seconds": 785.1935462459805,
+   "train_hits": 8,
+   "test_hits": 16,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "layout=identity_canvas; partition input as row_segments(background=0) -> R; fill_between(literal:2) on [gap == min(gap)]",
+   "error": null
+  },
+  {
+   "task_id": "5adee1b2",
+   "seconds": 1127.2773801599978,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "5b37cb25",
+   "seconds": 2680.7680532580125,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "5d588b4d",
+   "seconds": 0.851743848004844,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "5e6bbc0b",
+   "seconds": 339.7087480389746,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "5ecac7f7",
+   "seconds": 8.34215545898769,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "60d73be6",
+   "seconds": 619.9265928849927,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "6165ea8f",
+   "seconds": 25.656883998017292,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "6350f1f4",
+   "seconds": 188.3113442240283,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "652646ff",
+   "seconds": 13.707270534010604,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "668eec9a",
+   "seconds": 6.056567125022411,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "66ac4c3b",
+   "seconds": 237.75063003902324,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "689c358e",
+   "seconds": 363.52350267296424,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "68bc2e87",
+   "seconds": 8.643219469988253,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "6a980be1",
+   "seconds": 182.01271469396306,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "6bcdb01e",
+   "seconds": 434.40268887905404,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "6ca952ad",
+   "seconds": 229.03943424503086,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "6cbe9eb8",
+   "seconds": 11.610896196973044,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "6d1d5c90",
+   "seconds": 4.894402243022341,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "6ffe8f07",
+   "seconds": 1662.189270576986,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "753ea09b",
+   "seconds": 1301.4707280389848,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "758abdf0",
+   "seconds": 208.01617527200142,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "78e78cff",
+   "seconds": 141.48112728900742,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "79cce52d",
+   "seconds": 2.5772710259770975,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "7acdf6d3",
+   "seconds": 462.0335556460195,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "7d7772cc",
+   "seconds": 823.2403101529926,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "7e2bad24",
+   "seconds": 300.329971218016,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "7e4d4f7c",
+   "seconds": 6.340861036034767,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "7e576d6e",
+   "seconds": 176.69726203597384,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "7ec998c9",
+   "seconds": 544.8938831830164,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "80214e03",
+   "seconds": 10.68306406197371,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "825aa9e9",
+   "seconds": 162.61991908302298,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "833966f4",
+   "seconds": 270.4634862980456,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "83b6b474",
+   "seconds": 3.5906311940052547,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "83eb0a57",
+   "seconds": 38.40300375997322,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "84551f4c",
+   "seconds": 437.85524227604037,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "84ba50d3",
+   "seconds": 534.2020814429852,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "8618d23e",
+   "seconds": 2.8766697350074537,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "878187ab",
+   "seconds": 9.000746509002056,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "87ab05b8",
+   "seconds": 355.17594613099936,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "880c1354",
+   "seconds": 567.5860340200015,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "8886d717",
+   "seconds": 830.9153339879704,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "8a6d367c",
+   "seconds": 21.222474267997313,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "8abad3cf",
+   "seconds": 4.609850056993309,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "8dab14c2",
+   "seconds": 225.0462888479815,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "8e301a54",
+   "seconds": 410.6393302400247,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "8fff9e47",
+   "seconds": 1.9994929280364886,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "902510d5",
+   "seconds": 460.87686958996346,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "9344f635",
+   "seconds": 189.06742118601687,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "9473c6fb",
+   "seconds": 438.0523657920421,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "95755ff2",
+   "seconds": 256.04516701301327,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "963c33f8",
+   "seconds": 1253.1548528010026,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "9720b24f",
+   "seconds": 107.6182919050334,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "973e499e",
+   "seconds": 2.612181423988659,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "97c75046",
+   "seconds": 479.9833631290239,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "981add89",
+   "seconds": 787.9743715960067,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "9841fdad",
+   "seconds": 810.7545586439664,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "984d8a3e",
+   "seconds": 142.76982520602178,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "985ae207",
+   "seconds": 603.0260383929708,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "98c475bf",
+   "seconds": 181.7709459020407,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "9968a131",
+   "seconds": 172.4691610970185,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "996ec1f3",
+   "seconds": 10.17496132402448,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "99caaf76",
+   "seconds": 1006.1944584459998,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "9b30e358",
+   "seconds": 37.41136526898481,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "9b5080bb",
+   "seconds": 116.82177551998757,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "9ba4a9aa",
+   "seconds": 13.626839425007347,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "9caf5b84",
+   "seconds": 188.30561380001018,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "9f41bd9c",
+   "seconds": 68.26648134097923,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "9f5f939b",
+   "seconds": 129.38389452901902,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "9f669b64",
+   "seconds": 64.73706993396627,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "9f8de559",
+   "seconds": 198.8497092250036,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "a09f6c25",
+   "seconds": 55.411160388961434,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "a1aa0c1e",
+   "seconds": 5.760674566961825,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "a2d730bd",
+   "seconds": 1498.3057012059726,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "a416fc5b",
+   "seconds": 4.37238213798264,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "a644e277",
+   "seconds": 11.553582508990075,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "a6953f00",
+   "seconds": 1.274708092038054,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "a834deea",
+   "seconds": 81.46034445799887,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "aa62e3f4",
+   "seconds": 232.4408264119993,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "aaecdb9a",
+   "seconds": 2.785594325978309,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "aaef0977",
+   "seconds": 14.542370338982437,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "abbfd121",
+   "seconds": 6.903614095994271,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "ac0c2ac3",
+   "seconds": 139.1853801549878,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "ac6f9922",
+   "seconds": 6.325986418989487,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "ad173014",
+   "seconds": 1768.932101783983,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "ad38a9d0",
+   "seconds": 273.6221552800271,
+   "train_hits": 4,
+   "test_hits": 8,
+   "clean_train": true,
+   "clean_test": true,
+   "example": "layout=identity_canvas; partition input as objects(background=7,connectivity=4,single_color=True) -> R; recolor_selected(table[size+width]={(2, 1): 9, (3, 1): 2, (3, 2): 4, (4, 3): 8, (5, 3): 3, (6, 3): 5}) on [all]",
+   "error": null
+  },
+  {
+   "task_id": "ad3b40cf",
+   "seconds": 209.04167971300194,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "af726779",
+   "seconds": 118.87959257001057,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "afe3afe9",
+   "seconds": 12.974433708004653,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "b1986d4b",
+   "seconds": 13.842113429971505,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "b25e450b",
+   "seconds": 368.67381628998555,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "b2bc3ffd",
+   "seconds": 168.58961536700372,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "b5bb5719",
+   "seconds": 57.25898065394722,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "b71a7747",
+   "seconds": 14.196341311966535,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "b7256dcd",
+   "seconds": 263.57454718399094,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "b745798f",
+   "seconds": 155.51731369801564,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "b74ca5d1",
+   "seconds": 1058.098716670007,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "b7955b3c",
+   "seconds": 308.45843394397525,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "ba1aa698",
+   "seconds": 1.202389910002239,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "bae5c565",
+   "seconds": 872.8064521269989,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "bc93ec48",
+   "seconds": 290.7850189349847,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "bd283c4a",
+   "seconds": 175.10583958699135,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "bd5af378",
+   "seconds": 158.25737808604026,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "c3fa4749",
+   "seconds": 751.9045600050013,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "c4d1a9ae",
+   "seconds": 64.13422742398689,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "c6141b15",
+   "seconds": 77.11840777698671,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "c61be7dc",
+   "seconds": 191.38385063997703,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "c803e39c",
+   "seconds": 3.711208844964858,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "c920a713",
+   "seconds": 5.457191537017934,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "c9680e90",
+   "seconds": 620.7414096989669,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "cc9053aa",
+   "seconds": 158.4378902100143,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "cf5fd0ad",
+   "seconds": 0.07659599598264322,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "d255d7a7",
+   "seconds": 227.2587235100218,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "d6542281",
+   "seconds": 215.76536300900625,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "d6e50e54",
+   "seconds": 169.15011356701143,
+   "train_hits": 1,
+   "test_hits": 2,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "layout=identity_canvas; partition input as objects(background=7,connectivity=4,single_color=True) -> R; recolor_selected(literal:2) on [color == 1]; slide_toward on [color == 9] toward [color == 1] extra [distance_to == min(distance_to)]",
+   "error": null
+  },
+  {
+   "task_id": "d749d46f",
+   "seconds": 2.5112451930181123,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "d753a70b",
+   "seconds": 167.2790108700283,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "d93c6891",
+   "seconds": 140.00178914202843,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "d968ffd4",
+   "seconds": 26.924710240971763,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "da6e95e5",
+   "seconds": 19.57636226702016,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "db118e2a",
+   "seconds": 1.8132364709745161,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "db615bd4",
+   "seconds": 883.8426798169967,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "db7260a4",
+   "seconds": 114.76827273797244,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "dc46ea44",
+   "seconds": 173.5458392110304,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "dce56571",
+   "seconds": 73.4563706869958,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "df978a02",
+   "seconds": 81.91250664001564,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "df9fd884",
+   "seconds": 180.4914923280012,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "e048c9ed",
+   "seconds": 170.0198437870131,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "e39e9282",
+   "seconds": 281.3828138760291,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "e3f79277",
+   "seconds": 2.7725936319911852,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "e3fe1151",
+   "seconds": 34.92246720002731,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "e45ef808",
+   "seconds": 204.02673981897533,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "e4888269",
+   "seconds": 1043.4890160770155,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "e4941b18",
+   "seconds": 275.45830053300597,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "e729b7be",
+   "seconds": 173.12249328102916,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "e734a0e8",
+   "seconds": 249.41257173201302,
+   "train_hits": 16,
+   "test_hits": 32,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "layout=identity_canvas; partition input as objects(background=0,connectivity=4,single_color=False) -> R; stamp(stamp:('key', 'by_key', 'none')) on [colors == max(colors)] toward [size == min(size)]",
+   "error": null
+  },
+  {
+   "task_id": "e84fef15",
+   "seconds": 26.356479468988255,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "e9fc42f2",
+   "seconds": 4.969920483999886,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "ecb67b6d",
+   "seconds": 426.47906162100844,
+   "train_hits": 124,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "layout=identity_canvas; partition input as objects(background=7,connectivity=8,single_color=True) -> R; recolor_selected(table[width]={(3,): 8, (4,): 8, (6,): 5}) on [gen:ratio(density,max_cdist) == min(gen:ratio(density,max_cdist))]",
+   "error": null
+  },
+  {
+   "task_id": "edcc2ff0",
+   "seconds": 917.4783926280215,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "f0100645",
+   "seconds": 109.50186804996338,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "f0f8a26d",
+   "seconds": 88.63835671101697,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "f18ec8cc",
+   "seconds": 1322.191632913018,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "f1bcbc2c",
+   "seconds": 460.36788579495624,
+   "train_hits": 2,
+   "test_hits": 2,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "layout=identity_canvas; partition input as objects(background=7,connectivity=4,single_color=True) -> R; recolor_selected(literal:8) on [gen:ratio(add(bbox_area,height),sum_sizediff) == min(gen:ratio(add(bbox_area,height),sum_sizediff))]",
+   "error": null
+  },
+  {
+   "task_id": "f28a3cbb",
+   "seconds": 99.56676130898995,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "f341894c",
+   "seconds": 518.450814083044,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "f3e14006",
+   "seconds": 30.238361257012002,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "f8cc533f",
+   "seconds": 202.01347643899499,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "f8f52ecc",
+   "seconds": 357.0939394030138,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "fbf15a0b",
+   "seconds": 10.335994022025261,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "fc10701f",
+   "seconds": 362.82327229494695,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "fc4aaf52",
+   "seconds": 45.184612234996166,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "fd02da9e",
+   "seconds": 29.831240946019534,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "fe45cba4",
+   "seconds": 198.98077169200405,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  },
+  {
+   "task_id": "ff2825db",
+   "seconds": 921.0890196660184,
+   "train_hits": 0,
+   "test_hits": 0,
+   "clean_train": false,
+   "clean_test": false,
+   "example": "",
+   "error": null
+  }
+ ]
+}

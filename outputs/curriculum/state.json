@@ -1,0 +1,601 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-09-26",
+  "current_stage": "stage_1",
+  "stage_status": "complete",
+  "partition_ref": {
+    "path": "docs/curriculum/partition.json",
+    "seed": 20260921,
+    "total_training_tasks": 1000,
+    "curricular_pool_size": 800,
+    "probe_pool_size": 200,
+    "pinned_curricular_task_ids": [
+      "007bbfb7"
+    ]
+  },
+  "remaining_stage_0_items": [],
+  "blocked_on": [],
+  "solved_tasks": [
+    "007bbfb7",
+    "00576224",
+    "ded97339",
+    "1cf80156",
+    "1f85a75f",
+    "a87f7484",
+    "be94b721",
+    "070dd51e",
+    "22eb0ac0",
+    "4c4377d9",
+    "5b6cbef5",
+    "68b16354",
+    "8be77c9e",
+    "9def23fe",
+    "a416b8f3",
+    "22168020",
+    "d9fac9be",
+    "4347f46a",
+    "694f12f3",
+    "b230c067",
+    "f5aa3634",
+    "00d62c1b",
+    "3618c87e",
+    "a5313dff",
+    "aedd82e4",
+    "dc1df850",
+    "f0df5ff0",
+    "1e0a9b12",
+    "5ffb2104",
+    "d282b262",
+    "0520fde7",
+    "0c9aba6e",
+    "195ba7dc",
+    "1b2d62fb",
+    "31d5ba1a",
+    "3428a4f5",
+    "34b99a2b",
+    "3d31c5b3",
+    "506d28a5",
+    "5d2a5c43",
+    "6430c8c4",
+    "66f2d22f",
+    "6a11f6da",
+    "75b8110e",
+    "94f9d214",
+    "99b1bc43",
+    "a68b268e",
+    "ce4f8723",
+    "cf98881b",
+    "d19f7514",
+    "dae9d2b5",
+    "e99362f0",
+    "ea9794b1",
+    "fafffa47",
+    "21f83797",
+    "42a50994",
+    "5ad8a7c0",
+    "62ab2642",
+    "7b6016b9",
+    "7e02026e",
+    "9b4c17c4",
+    "ce22a75a",
+    "d6e50e54",
+    "458e3a53",
+    "5a719d11",
+    "ad38a9d0",
+    "342dd610",
+    "17b866bd",
+    "1b59e163",
+    "e734a0e8",
+    "321b1fc6",
+    "c444b776",
+    "e76a88a6"
+  ],
+  "next_task": "445eab21",
+  "probe_pool_checkpoints": [
+    {
+      "date": "2026-09-21",
+      "num_tasks": 200,
+      "num_solved": 0,
+      "num_exact_match_tasks": 0,
+      "accuracy": 0.0
+    },
+    {
+      "date": "2026-09-21",
+      "num_tasks": 200,
+      "num_solved": 0,
+      "num_exact_match_tasks": 0,
+      "accuracy": 0.0
+    },
+    {
+      "date": "2026-09-21",
+      "num_tasks": 200,
+      "num_solved": 0,
+      "num_exact_match_tasks": 0,
+      "accuracy": 0.0
+    },
+    {
+      "date": "2026-09-21",
+      "num_tasks": 200,
+      "num_solved": 0,
+      "num_exact_match_tasks": 0,
+      "accuracy": 0.0
+    },
+    {
+      "date": "2026-09-21",
+      "num_tasks": 200,
+      "num_solved": 3,
+      "num_exact_match_tasks": 3,
+      "accuracy": 0.015
+    },
+    {
+      "date": "2026-09-21",
+      "num_tasks": 200,
+      "num_solved": 3,
+      "num_exact_match_tasks": 3,
+      "accuracy": 0.015
+    },
+    {
+      "date": "2026-09-21",
+      "num_tasks": 200,
+      "num_solved": 3,
+      "num_exact_match_tasks": 3,
+      "accuracy": 0.015
+    },
+    {
+      "date": "2026-09-22",
+      "num_tasks": 200,
+      "num_solved": 4,
+      "num_exact_match_tasks": 4,
+      "accuracy": 0.02,
+      "library_version": "v5",
+      "new_task_vs_v4": "23b5c85d",
+      "note": "First new probe-pool transfer since v2. Desk-checked (docs/curriculum/desk-checks/23b5c85d.md): 6 verified candidates, all crop_to_selected_object(connectivity, single_color=True, background) + smallest_object + crop_content, differing only in connectivity/background (benign ambiguity, no selected==not_selected pattern). Genuine transfer of segmentacao_4/segmentacao_8, objeto_tamanho, recorte to an untaught probe-pool task."
+    },
+    {
+      "date": "2026-09-22",
+      "num_tasks": 200,
+      "num_unanimous": 4,
+      "num_solved": 4,
+      "accuracy": 0.02
+    },
+    {
+      "date": "2026-09-23",
+      "num_tasks": 200,
+      "num_unanimous": 5,
+      "num_solved": 5,
+      "accuracy": 0.025
+    },
+    {
+      "date": "2026-09-23",
+      "num_tasks": 200,
+      "num_unanimous": 4,
+      "num_solved": 5,
+      "accuracy": 0.025
+    },
+    {
+      "date": "2026-09-23",
+      "num_tasks": 200,
+      "num_unanimous": 4,
+      "num_solved": 5,
+      "accuracy": 0.025
+    },
+    {
+      "date": "2026-09-23",
+      "num_tasks": 200,
+      "num_unanimous": 4,
+      "num_solved": 5,
+      "accuracy": 0.025
+    },
+    {
+      "date": "2026-09-23",
+      "num_tasks": 200,
+      "num_unanimous": 4,
+      "num_solved": 5,
+      "accuracy": 0.025
+    },
+    {
+      "date": "2026-09-23",
+      "num_tasks": 200,
+      "num_unanimous": 6,
+      "num_solved": 7,
+      "accuracy": 0.035
+    },
+    {
+      "date": "2026-09-23",
+      "num_tasks": 200,
+      "num_unanimous": 8,
+      "num_solved": 9,
+      "accuracy": 0.045,
+      "num_solved_at_1": 9,
+      "num_solved_at_2": 0
+    },
+    {
+      "date": "2026-09-23",
+      "num_tasks": 200,
+      "num_unanimous": 8,
+      "num_solved": 10,
+      "accuracy": 0.05,
+      "num_solved_at_1": 10,
+      "num_solved_at_2": 0
+    },
+    {
+      "date": "2026-09-23",
+      "num_tasks": 200,
+      "num_unanimous": 9,
+      "num_solved": 12,
+      "accuracy": 0.06,
+      "num_solved_at_1": 12,
+      "num_solved_at_2": 0
+    },
+    {
+      "date": "2026-09-24",
+      "num_tasks": 200,
+      "num_unanimous": 9,
+      "num_solved": 12,
+      "accuracy": 0.06,
+      "num_solved_at_1": 12,
+      "num_solved_at_2": 0
+    },
+    {
+      "date": "2026-09-24",
+      "num_tasks": 200,
+      "num_unanimous": 10,
+      "num_solved": 13,
+      "accuracy": 0.065,
+      "num_solved_at_1": 13,
+      "num_solved_at_2": 0
+    },
+    {
+      "date": "2026-09-24",
+      "num_tasks": 200,
+      "num_unanimous": 10,
+      "num_solved": 14,
+      "accuracy": 0.07,
+      "num_solved_at_1": 13,
+      "num_solved_at_2": 1
+    },
+    {
+      "date": "2026-09-24",
+      "num_tasks": 200,
+      "num_unanimous": 14,
+      "num_solved": 18,
+      "accuracy": 0.09,
+      "num_solved_at_1": 17,
+      "num_solved_at_2": 1
+    },
+    {
+      "date": "2026-09-24",
+      "num_tasks": 200,
+      "num_unanimous": 14,
+      "num_solved": 19,
+      "accuracy": 0.095,
+      "num_solved_at_1": 18,
+      "num_solved_at_2": 1
+    },
+    {
+      "date": "2026-09-24",
+      "num_tasks": 200,
+      "num_unanimous": 14,
+      "num_solved": 19,
+      "accuracy": 0.095,
+      "num_solved_at_1": 18,
+      "num_solved_at_2": 1,
+      "num_budget_hit": 3,
+      "num_deadline_hit": 0
+    },
+    {
+      "date": "2026-09-25",
+      "num_tasks": 200,
+      "num_unanimous": 14,
+      "num_solved": 19,
+      "accuracy": 0.095,
+      "num_solved_at_1": 18,
+      "num_solved_at_2": 1,
+      "num_budget_hit": 3,
+      "num_deadline_hit": 0
+    },
+    {
+      "date": "2026-09-25",
+      "num_tasks": 200,
+      "num_unanimous": 14,
+      "num_solved": 19,
+      "accuracy": 0.095,
+      "num_solved_at_1": 18,
+      "num_solved_at_2": 1,
+      "num_budget_hit": 3,
+      "num_deadline_hit": 0
+    },
+    {
+      "date": "2026-09-25",
+      "num_tasks": 200,
+      "num_unanimous": 15,
+      "num_solved": 20,
+      "accuracy": 0.1,
+      "num_solved_at_1": 19,
+      "num_solved_at_2": 1,
+      "num_budget_hit": 3,
+      "num_deadline_hit": 0
+    },
+    {
+      "date": "2026-09-25",
+      "num_tasks": 200,
+      "num_unanimous": 15,
+      "num_solved": 20,
+      "accuracy": 0.1,
+      "num_solved_at_1": 19,
+      "num_solved_at_2": 1,
+      "num_budget_hit": 3,
+      "num_deadline_hit": 0
+    },
+    {
+      "date": "2026-09-26",
+      "num_tasks": 200,
+      "num_unanimous": 16,
+      "num_solved": 21,
+      "accuracy": 0.105,
+      "num_solved_at_1": 20,
+      "num_solved_at_2": 1,
+      "num_budget_hit": 3,
+      "num_deadline_hit": 0
+    }
+  ],
+  "library_version": "v6",
+  "next_step": 7,
+  "object_pack": {
+    "status": "complete",
+    "spec_path": "docs/curriculum/tasks/object-pack.md",
+    "current_phase": 7,
+    "phase_1_complete": true,
+    "phase_2_complete": true,
+    "phase_3_complete": true,
+    "phase_4_complete": true,
+    "phase_5_complete": true,
+    "phase_5_summary": {
+      "files_created": [
+        "src/curriculum/library/staging/object_layout.py",
+        "src/curriculum/library/staging/object_selector.py",
+        "src/curriculum/library/staging/object_content.py",
+        "src/curriculum/library/staging/object_compose.py",
+        "tests/curriculum/library/staging/test_object_layout.py",
+        "tests/curriculum/library/staging/test_object_selector.py",
+        "tests/curriculum/library/staging/test_object_content.py",
+        "tests/curriculum/library/staging/test_object_compose.py"
+      ],
+      "layouts": [
+        "identity_canvas",
+        "crop_to_selected_object"
+      ],
+      "selectors": [
+        "largest_object",
+        "smallest_object",
+        "unique_color_object",
+        "objects_of_color",
+        "objects_touching_border",
+        "objects_not_touching_border",
+        "all_objects"
+      ],
+      "content_pieces": [
+        "keep",
+        "erase_selected",
+        "recolor_selected",
+        "fill_bbox_selected",
+        "slide_selected",
+        "crop_content"
+      ],
+      "new_tests": 27,
+      "full_suite": "565 passed, 2 skipped (no regressions)",
+      "specificity_self_audit": "manual (specificity_sweep.py does not scan library/staging/ yet, pre-existing gap); no task-ID literals, no unexplained magic numbers found",
+      "staging_exclusion": "ADR 0069: search/compose.py does not import src.curriculum.library.staging, confirmed by inspection"
+    },
+    "phase_6_complete": true,
+    "phase_6_summary": {
+      "design_decision_adr": "docs/decisions/0070-fase-6-poda-por-inventario-e-inferencia-de-parametros.md",
+      "files_created": [
+        "src/curriculum/library/staging/object_params.py",
+        "tests/curriculum/library/staging/test_object_params.py"
+      ],
+      "files_modified": [
+        "src/curriculum/search/pruning.py",
+        "tests/curriculum/search/test_pruning.py"
+      ],
+      "pruning_py_additions": [
+        "infer_target_color_candidates",
+        "infer_colors_common_to_every_input"
+      ],
+      "object_params_py_functions": [
+        "recolor_target_color_candidates",
+        "objects_of_color_candidates",
+        "slide_direction_candidates",
+        "connectivity_single_color_candidates",
+        "should_include_identity_canvas",
+        "should_include_crop_layout"
+      ],
+      "section_3_6_rows_covered": {
+        "same_shape": "already covered pre-Phase-6 by search/pruning.infer_consistent_axis_scale (main lib); should_include_identity_canvas added for staging use",
+        "constant_shape_ratio": "already covered pre-Phase-6 by search/pruning.infer_consistent_axis_scale (main lib)",
+        "constant_out_shape_or_shape_depends_on_content": "no crop layout exists in the main lib; should_include_crop_layout added for staging use (Phase 7)",
+        "no_new_colors_and_new_color_always_added": "no free target-color parameter exists in the main lib today (only background, hard-pruned already, and 2 fixed-choice params); infer_target_color_candidates added in search/pruning.py, consumed today only by staging's recolor_target_color_candidates",
+        "few_cells_change": "no effect possible: search_task/build_search_log always enumerate exhaustively (no early-stop, needed for ambiguity detection), so reordering by locality changes neither count nor runtime; documented as a known limitation, not implemented"
+      },
+      "regression_3_3": "0 regressed (007bbfb7, 00576224, ded97339 all still solved), via src/curriculum/regression.run_regression",
+      "hypothesis_counts_before_after": {
+        "007bbfb7": {
+          "before": 5000,
+          "after": 5000
+        },
+        "00576224": {
+          "before": 5000,
+          "after": 5000
+        },
+        "ded97339": {
+          "before": 756,
+          "after": 756
+        }
+      },
+      "hypothesis_count_root_cause": "identical before/after because the new pruning lives entirely in search/pruning.py (no new consumer added to search/params.py or search/compose.py) and library/staging/object_params.py (staging-only, not imported by the main search per ADR 0069); the package does not multiply the search space for already-accepted tasks (Section 5.4), trivially and traceably",
+      "new_tests": 20,
+      "full_suite": "579 passed, 2 skipped (no regressions)"
+    },
+    "next_phase": null,
+    "next_phase_description": "None: object-pack.md Section 0 stopping point reached (Fase 7 final report emitted). Awaiting human decision on the next curricular task (see Section 10 report / docs/curriculum/progress.md).",
+    "promoted": true,
+    "promoted_at": "2026-09-22",
+    "phase_7_progress": {
+      "section_5_5_status": "complete_promoted",
+      "files_created_before_promotion": [
+        "src/curriculum/library/staging/object_search.py",
+        "tests/curriculum/library/staging/test_object_search.py",
+        "src/curriculum/object_pack_gate.py",
+        "tests/curriculum/test_object_pack_gate.py"
+      ],
+      "files_modified_before_promotion": [
+        "src/curriculum/library/staging/object_params.py (added background_candidates)",
+        "tests/curriculum/library/staging/test_object_params.py"
+      ],
+      "bug_fixed": "crop layout leaves SELECTED_REF unbound when its selector selects no object, raising a raw KeyError instead of interpreter.InterpreterError; object_search.py's local _matches_all_train_pairs/_predict catch both",
+      "timing_sample": "15-task sample of the not-yet-accepted pool: 390.47s total, 26.03s/task avg (1/15 solved: 070dd51e, main_verified=22)",
+      "gate_check_result": "797 not-yet-accepted curricular-pool tasks checked (445eab21 included, came back no_candidate): 16 solved, 2 ambiguous (22168020, d9fac9be), 779 no_candidate. Full detail: outputs/curriculum/object-pack-gate-report.txt",
+      "object_pack_only_hits": {
+        "count_raw": 8,
+        "task_ids_raw": [
+          "1cf80156",
+          "1f85a75f",
+          "73ccf9c2",
+          "a87f7484",
+          "b230c067",
+          "be94b721",
+          "f5aa3634",
+          "b1948b0a"
+        ],
+        "desk_check_excluded": {
+          "b1948b0a": "coincidental: found composition's selected_content and not_selected_content were the same recolor_selected({'color': 2}) operation (object selection is a provable no-op); raw train grids confirmed the real rule is a global color substitution (6->2, keep 7) unrelated to object segmentation"
+        },
+        "validated_count": 4,
+        "validated_task_ids": [
+          "1cf80156",
+          "1f85a75f",
+          "a87f7484",
+          "be94b721"
+        ],
+        "rn_cur_36_condition_2": "met (7 >= 2 threshold)",
+        "correction_2026_09_22": "ADR 0073: 3 of the 7 validated_task_ids (73ccf9c2, b230c067, f5aa3634) were unanimous among verified candidates but did NOT match the real gabarito; desk_check's unanimous-agreement signal was wrongly treated as a gabarito match by cli.py's old cmd_solve. Reverted; validated_count 7 -> 4."
+      },
+      "main_library_only_hits": {
+        "count": 8,
+        "task_ids": [
+          "070dd51e",
+          "22eb0ac0",
+          "4c4377d9",
+          "5b6cbef5",
+          "68b16354",
+          "8be77c9e",
+          "9def23fe",
+          "a416b8f3"
+        ],
+        "note": "side finding, unrelated to the object pack itself: pre-existing accepted main-library pieces already solved these curricular-pool tasks, surfaced only because the gate check ran search_task across the whole not-yet-accepted pool. Desk-checked for coherence (composition structure inspected per task, no selected==not_selected no-op pattern found); accepted alongside the object-pack hits per Section 5.5's 'para cada tarefa resolvida, valide por desk check... essas tarefas passam a aceitas'"
+      },
+      "design_gap_noted_for_future_writeup": "object-pack search should suppress/de-prioritize identity_canvas compositions where selected_content == not_selected_content (both piece name and params identical), since these can never demonstrate genuine object-selection value and only inflate coincidental hit/candidate counts (found via the b1948b0a false positive)",
+      "promotion_mechanism": {
+        "decision": "no new duplicate search system: search/rank.py::search_task (canonical entry point used by probe.py, regression.py, desk_check/run.py, cli.py) now delegates to library/objects/object_search.py::check_with_object_pack and unions main_verified+object_verified into one SearchResult.verified list (RN-CUR-31: reuses check_with_object_pack's existing union/ambiguity logic instead of duplicating it)",
+        "old_search_task_renamed_to": "search_main_only (kept as its own function so object_search.py's check_with_object_pack can use it as the main-library side without recursing into the new combined search_task)",
+        "circular_import_handling": "object_search.py imports search_main_only from search/rank.py at module top level (no cycle, search_main_only has no dependency on object_search); search/rank.py's new search_task does a deferred (in-function) import of object_search, since object_search cannot be imported at rank.py's own module top level without creating a cycle",
+        "directory_rename": "src/curriculum/library/staging/ -> src/curriculum/library/objects/ (and matching tests/curriculum/library/staging/ -> tests/curriculum/library/objects/); the staging label no longer describes these files now that they are wired into the canonical search path",
+        "desk_check_adapter": "desk_check/run.py's _trace_step_counts (the one consumer that inspects individual verified candidates, not just len()/status/predictions) now dispatches on isinstance(candidate, ObjectComposition) to call build_object_composition_steps instead of build_composition_steps",
+        "verification": "full suite: 587 passed, 2 skipped (up from 584, +3 gate-driver tests) after the rename and rank.py wiring; regression.run_regression(['007bbfb7','00576224','ded97339']) -> 0 regressed; all 7 object-pack-only and all 8 main-library-only hits re-verified solved end-to-end through the promoted search_task/run_desk_check path, including the ObjectComposition trace-step dispatch"
+      },
+      "accepted_this_round": [
+        "1cf80156",
+        "1f85a75f",
+        "a87f7484",
+        "be94b721",
+        "070dd51e",
+        "22eb0ac0",
+        "4c4377d9",
+        "5b6cbef5",
+        "68b16354",
+        "8be77c9e",
+        "9def23fe",
+        "a416b8f3"
+      ],
+      "library_version_bump": "v4 -> v5",
+      "section_5_8_time_budget": {
+        "method": "same-session controlled comparison on a 10-task probe-pool sample (no historical wall-clock baseline existed in progress.md, only accuracy figures), timing search_main_only (proxy for before the package) vs search_task (proxy for after, includes object pack) on the identical 10 tasks",
+        "sample_task_ids": [
+          "025d127b",
+          "03560426",
+          "0607ce86",
+          "0692e18c",
+          "0e671a1a",
+          "10fcaaa3",
+          "12997ef3",
+          "12eac192",
+          "14754a24",
+          "17b80ad2"
+        ],
+        "before_avg_s_per_task": 20.169,
+        "after_avg_s_per_task": 26.931,
+        "ratio": 1.335,
+        "verdict": "no risk flag: 1.34x < 5x threshold"
+      },
+      "remaining_section_5_work": [],
+      "remaining_phase_7_work": [
+        "Section 10 final report"
+      ],
+      "scale_test_v5": {
+        "method": "Section 5.7: frozen v5 library (post object-pack promotion), 5 largest training-set tasks by total cell count, no additional teaching, real search_task execution per task",
+        "solved": 0,
+        "num_tasks": 5,
+        "detail_path": "outputs/curriculum/scale-test-v5-detail.txt",
+        "results": [
+          {
+            "task_id": "b74ca5d1",
+            "status": "no_candidate",
+            "time_s": 71.891,
+            "object_candidates": 5000
+          },
+          {
+            "task_id": "f9d67f8b",
+            "status": "no_candidate",
+            "time_s": 72.214,
+            "object_candidates": 5000
+          },
+          {
+            "task_id": "05a7bcf2",
+            "status": "no_candidate",
+            "time_s": 52.219,
+            "object_candidates": 5000
+          },
+          {
+            "task_id": "264363fd",
+            "status": "no_candidate",
+            "time_s": 84.688,
+            "object_candidates": 5000
+          },
+          {
+            "task_id": "753ea09b",
+            "status": "no_candidate",
+            "time_s": 96.205,
+            "object_candidates": 5000
+          }
+        ],
+        "note": "Same 0/5 result as the pre-promotion v2 scale test; all 5 tasks remain same-size 30x30 with no per-cell local content piece able to express their edit rule. object_candidates hits the 5000 enumeration cap on every task (MAX_COMPOSITIONS_PER_TASK), confirming the object pack's own search space is large on 30x30 grids even after Section 6's inventory-based pruning; absolute per-task time (52-96s) is far above the Section 5.8 probe-pool sample average (26.93s/task) because these are the largest training tasks, not a probe-pool-representative sample -- not a re-measurement of the 1.335x ratio, a separate data point."
+      },
+      "probe_checkpoint_v5": {
+        "num_tasks": 200,
+        "num_solved": 4,
+        "num_exact_match_tasks": 4,
+        "accuracy": 0.02,
+        "elapsed_s": 2333.4,
+        "detail_path": "outputs/curriculum/probe-checkpoint-v5-detail.txt",
+        "new_task_vs_v4": "23b5c85d",
+        "bug_found_and_fixed": "desk_check/persist.py::build_hypothesis_record lacked the ObjectComposition dispatch adapter that desk_check/run.py received during promotion; fixed, see ADR 0072 Correction (2026-09-22). tests/curriculum: 243 passed after fix."
+      },
+      "section_5_status": "complete",
+      "gate_check_result_correction_2026_09_22": "Of the 16 originally reported as 'solved' (unanimous), only 13 are gabarito-verified solved under the corrected two-attempt rule (compute_verified_verdict): 3 were false positives (73ccf9c2, b230c067, f5aa3634), reverted per ADR 0073. b1948b0a (excluded earlier as a coincidental no-op) is separately confirmed gabarito-solved=True but remains excluded on its original RN-CUR-36 grounds, unrelated to this bug. Additionally, both tasks previously reported as 'ambiguous' (22168020, d9fac9be) are gabarito-solved=True under the two-attempt policy (attempt_1 matches gabarito in both cases) but were never accepted because desk_check's ambiguous status was never re-checked against the gabarito under the old rule; see docs/decisions/0073-*.md. Acceptance of these 2 tasks into solved_tasks is left to the user's decision, not applied here.",
+      "acceptance_correction_2026_09_22_round0": "User decision (continuous-loop.md kickoff, ADR 0074): 22168020 and d9fac9be, found gabarito-solved=True (attempt_1_match) by the ADR 0073 audit but left unaccepted pending user review, are now accepted into solved_tasks. Curriculum 15 -> 17 accepted."
+    },
+    "updated_at": "2026-09-22",
+    "phase_7_complete": true,
+    "phase_7_summary": "Curricular gate run over 797 not-yet-accepted pool tasks: 16 solved, 2 ambiguous excluded (22168020, d9fac9be), 15 accepted (7 object-pack-exclusive + 8 main-library-only side finding), 1 coincidence excluded (b1948b0a). Promoted staging/ -> objects/, library_version v4 -> v5 (ADR 0072). Probe pool: 3/200 -> 4/200 (new: 23b5c85d, genuine transfer, desk-checked). Scale test: 0/5, unchanged. Search cost ratio 1.335x (below 5x risk threshold). Documentation complete: ADR 0071, ADR 0072 (+Correction 2026-09-22 for a desk_check/persist.py dispatch bug found and fixed during this validation), library.md, learning-curve.md, progress.md, Solution Writeup Section 7, concept-map.md (12 concepts -> coberto), unlock-value.md recalculated. Final report emitted per Section 10; object-pack.md fully executed. CORRECTION (2026-09-22, ADR 0073): 3 of the 15 accepted (73ccf9c2, b230c067, f5aa3634) were unanimous-but-gabarito-wrong, wrongly accepted by the old status-based gate/CLI logic; reverted. 15 accepted -> 12 accepted this round; curriculum solved_tasks 18 -> 15. See docs/decisions/0073-*.md."
+  }
+}

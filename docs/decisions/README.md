@@ -1,0 +1,125 @@
+# Architecture Decision Records (ADR) index
+
+One line per ADR: number, title, status. This is the canonical index;
+no ADR content is summarized here or in CLAUDE.md. Read the linked ADR
+file itself for full context.
+
+See [docs/history/claude-md-archive.md](../history/claude-md-archive.md)
+for the pre-2026-09-21 CLAUDE.md, which used to narrate every ADR
+inline in its own Sections 5/6 (the propagation habit this index
+replaces, see ADR 0065).
+
+- [0001 - Solver approach selection](0001-solver-approach-selection.md) - Accepted
+- [0002 - Docker environment](0002-docker-environment.md) - Accepted
+- [0003 - Base model and fine-tuning/TTT strategy](0003-base-model-and-finetuning-strategy.md) - Accepted
+- [0004 - WSL2-native execution instead of Docker Desktop](0004-wsl2-native-execution.md) - Accepted
+- [0005 - AI assistant usage in development](0005-ai-assistant-usage-in-development.md) - Accepted
+- [0006 - Submission format](0006-submission-format.md) - Accepted
+- [0007 - Raw prediction persistence](0007-raw-prediction-persistence.md) - Accepted
+- [0008 - Error diagnosis, first round](0008-error-diagnosis-first-round.md) - Informative
+- [0009 - Empty-candidate diagnosis (neural self-consistency and symbolic fallback)](0009-empty-candidate-diagnosis.md) - Informative
+- [0010 - Raw generation inspection](0010-raw-generation-inspection.md) - Accepted
+- [0011 - Submission safety net for empty candidates](0011-submission-safety-net.md) - Accepted
+- [0012 - Base model license check against the Open Source AI Definition](0012-base-model-license-check.md) - Informative
+- [0013 - Time budget projection for the 240-task real evaluation](0013-time-budget-240-tasks.md) - Informative
+- [0014 - Replace the base model with an OSAID-compliant alternative](0014-osaid-compliant-base-model.md) - Accepted
+- [0015 - Layered sampling for debug cycles](0015-layered-sampling.md) - Accepted
+- [0016 - GPU memory smoke test](0016-gpu-memory-smoke-test.md) - Informative
+- [0017 - Post-EOS-fix sanity diagnosis](0017-post-eos-fix-sanity-diagnosis.md) - Informative
+- [0018 - Post-EOS-fix parsing-vs-content diagnosis](0018-post-eos-fix-parsing-vs-content-diagnosis.md) - Informative
+- [0019 - Hyperparameter ablation on input-copying behavior](0019-hyperparameter-ablation-input-copying.md) - Informative
+- [0020 - Next accuracy lever: data augmentation, not hyperparameter tuning](0020-lever-decision-data-augmentation.md) - Accepted
+- [0021 - Geometric augmentation smoke test](0021-augmentation-geometric-smoke-test.md) - Informative
+- [0022 - Hypothesis reformulation after the pre-existing-augmentation discovery](0022-hypothesis-reformulation-post-augmentation-discovery.md) - Informative
+- [0023 - Sanity run of the current mature config, post-augmentation](0023-sanity-current-config-post-augmentation.md) - Informative
+- [0024 - Shape mismatch root cause diagnosis](0024-shape-mismatch-root-cause-diagnosis.md) - Informative
+- [0025 - Deterministic shape constraint for mechanically derivable output sizes](0025-deterministic-shape-constraint.md) - Informative
+- [0026 - Shape constraint at the sanity layer](0026-shape-constraint-sanity.md) - Informative
+- [0027 - Color augmentation at the sanity layer](0027-color-augmentation-sanity.md) - Informative
+- [0028 - Timing anomaly and task complexity investigation](0028-timing-anomaly-and-task-complexity-investigation.md) - Informative
+- [0029 - Decoding mitigations for repetition and hallucination](0029-decoding-mitigations-repetition-hallucination.md) - Informative
+- [0030 - Splitting the repetition-mitigation parameters](0030-splitting-repetition-mitigation-parameters.md) - Informative
+- [0031 - Conditional no_repeat_ngram_size mitigation](0031-conditional-ngram-mitigation.md) - Informative
+- [0032 - Per-attempt conditional no_repeat_ngram_size mitigation](0032-per-attempt-conditional-ngram-mitigation.md) - Informative
+- [0033 - Consolidated current config, pre-validation](0033-consolidated-current-config.md) - Accepted
+- [0034 - First validation-tier run of the consolidated config](0034-first-validation-consolidated-config.md) - Informative
+- [0035 - Sizing the cross-task pretraining hypothesis](0035-dimensionamento-pretreino-cross-task.md) - Informative
+- [0036 - Cross-task pretraining pilot (real run, partial)](0036-piloto-pretreino-cross-task.md) - Informative
+- [0037 - Error pattern diagnosis on "close" held-out pairs](0037-diagnostico-padrao-erro-pares-close.md) - Informative
+- [0038 - Fixed output shape rule](0038-fixed-output-shape.md) - Informative
+- [0039 - Cross-task pretraining pilot v2, paired comparison](0039-piloto-pretreino-v2-comparacao-pareada.md) - Informative
+- [0040 - Priority pivot: symbolic solver becomes the primary line](0040-pivot-prioridade-solver-simbolico.md) - Accepted
+- [0041 - Sizing the symbolic-solver expansion](0041-dimensionamento-solver-simbolico.md) - Informative
+- [0042 - Clarifying ADR 0041 items 1-2: no new content mechanism, color-swap already exhausted](0042-item1-item2-clarification-color-swap-exhausted.md) - Informative
+- [0043 - Measuring crop/tile coverage before building (null result)](0043-medicao-cobertura-crop-tile.md) - Informative
+- [0044 - Testing composition of existing primitives before expanding (null result)](0044-composicao-primitivas-existentes.md) - Informative
+- [0045 - Cheap diagnostic for object/component and symmetry-repair heuristics (null result)](0045-diagnostico-objeto-simetria.md) - Informative
+- [0046 - Second independent sample confirms the null pattern is not sample-specific](0046-segunda-amostra-cobertura-simbolica.md) - Accepted
+- [0047 - First real Kaggle submission (symbolic solver only)](0047-primeira-submissao-real-kaggle.md) - Informative
+- [0048 - Offline packaging of the neural model for Kaggle (OLMo-2-1124-7B + Unsloth stack)](0048-empacotamento-offline-modelo.md) - Accepted
+- [0049 - Time-budgeted hybrid symbolic+neural submission pipeline](0049-pipeline-hibrido-orcamento-tempo.md) - Accepted
+- [0050 - Static undefined-name check for the self-contained Kaggle notebook](0050-notebook-undefined-name-check.md) - Accepted
+- [0051 - Revert base model to Qwen3-4B-Instruct-2507, accepted-risk decision](0051-reversao-para-qwen3-risco-aceito.md) - Accepted
+- [0052 - Qwen3-4B-Instruct-2507 memory smoke test](0052-qwen3-memory-smoke-test.md) - Informative
+- [0053 - Qwen3-4B-Instruct-2507 generation smoke test](0053-qwen3-instruct-generation-smoke.md) - Informative
+- [0054 - Chat-template prompt format test for Qwen3-Instruct's new failure modes](0054-formato-chat-template-qwen3.md) - Informative
+- [0055 - Qwen3-4B-Base vs Instruct: is the reasoning habit post-training-specific?](0055-qwen3-base-vs-instruct.md) - Informative
+- [0056 - Fixing parser leniency and adapting mitigations to Qwen3-4B-Base's four failure modes](0056-mitigacao-4-modos-qwen3-base.md) - Informative
+- [0057 - Sizing a larger-scale cross-task pretraining attempt, Qwen3-4B-Base](0057-dimensionamento-pretreino-v3-qwen3-base.md) - Informative
+- [0058 - Circuit breaker wiring through the diagnostic path](0058-circuit-breaker-wiring-diagnostic-path.md) - Accepted
+- [0059 - Piloto de pré-treino cross-task em escala intermediária, Qwen3-4B-Base](0059-piloto-pretreino-qwen3-base.md) - Informative
+- [0060 - Rule induction verified against train pairs (induce-verify-apply)](0060-inducao-de-regra-verificada-em-pares-de-treino.md) - Implemented (smoke-tested)
+- [0061 - Curriculum restart](0061-curriculum-restart.md) - Accepted
+- [0062 - Declarative-step vocabulary v1](0062-vocabulario-declarativo-v1.md) - Accepted
+- [0063 - Summarized-by-default CLI/diagnostic output (RN-CUR-32)](0063-saidas-resumidas-por-padrao.md) - Accepted
+- [0064 - Decomposition before creation (RN-CUR-31)](0064-decomposicao-antes-de-criacao.md) - Accepted
+- [0065 - CLAUDE.md stays lean and stable (RN-CUR-34)](0065-claude-md-enxuto-rn-cur-34.md) - Accepted
+- [0066 - Directional tracing vocabulary additions (Seed step, IsIsolated predicate, SegmentTo region)](0066-vocabulario-tracado-direcional.md) - Accepted
+- [0067 - Concept-map-guided curriculum (RN-CUR-35)](0067-curriculo-guiado-por-mapa-de-conceitos.md) - Accepted
+- [0068 - SegmentTo stop_condition generalization (border, any_obstacle)](0068-segmentto-stop-condition.md) - Accepted
+- [0069 - Entrada de conceitos em pacote (RN-CUR-36)](0069-entrada-de-conceitos-em-pacote-rn-cur-36.md) - Accepted
+- [0070 - Fase 6 do pacote de objetos: poda por inventário e inferência de parâmetros em módulo próprio](0070-fase-6-poda-por-inventario-e-inferencia-de-parametros.md) - Accepted
+- [0071 - Vocabulário v2: primitivas declarativas de objeto no interpretador](0071-vocabulario-v2-primitivas-de-objeto.md) - Accepted
+- [0072 - Promoção do pacote de objetos para a biblioteca principal](0072-promocao-do-pacote-de-objetos.md) - Accepted
+- [0073 - Correção: solved (gabarito) separado de unânime (concordância)](0073-correcao-solved-vs-unanime.md) - Accepted
+- [0074 - Aceite de 22168020 e d9fac9be; início do ciclo contínuo autônomo](0074-aceite-22168020-d9fac9be-inicio-ciclo-continuo.md) - Accepted
+- [0075 - Separação fill_color/background e poda por intersecção de paleta (Rodada 1)](0075-poda-fill-color-vs-background.md) - Accepted
+- [0076 - Instrumentação de tempo, escopo do specificity sweep e correção da linha de base (pré-Rodada 2)](0076-instrumentacao-tempo-escopo-sweep-correcao-baseline.md) - Accepted
+- [0077 - Compatibilidade conteúdo x conteúdo no termo C² (Rodada 2)](0077-compatibilidade-conteudo-x-conteudo-c2.md) - Accepted
+- [0078 - Poda do loop externo do pacote de objetos via background por interseção (Rodada 3)](0078-poda-background-loop-externo-objetos.md) - Accepted
+- [0079 - Poda do background duplicado no conteúdo do pacote de objetos (Rodada 4)](0079-poda-background-conteudo-pacote-objetos.md) - Accepted
+- [0080 - Adiamento do produto cartesiano de conteúdo por pré-filtro local por papel (Rodada 5)](0080-adiamento-produto-conteudo-por-filtro-de-papel.md) - Accepted
+- [0081 - Pacote de conceito objeto_contorno: borda e interior de objeto (Rodada 6)](0081-pacote-objeto-contorno.md) - Accepted
+- [0082 - Pacote de conceito topologia_dentro: buracos de objeto (Rodada 7)](0082-pacote-topologia-dentro.md) - Accepted
+- [0083 - Relatorio de medicoes dividido em solved@1 e solved@2](0083-relatorio-solved-at-1-e-at-2.md) - Accepted
+- [0084 - Pacote objeto_halo: anel de fundo ao redor de objeto (Rodada 8)](0084-pacote-objeto-halo.md) - Accepted
+- [0085 - Refino de etiquetas frouxas por assinatura de familia](0085-refino-etiquetas-por-assinatura.md) - Accepted
+- [0086 - Conteudo composto por objeto: buraco+apagar e buraco+halo (Rodada 9)](0086-conteudo-composto-preencher-regiao.md) - Accepted
+- [0087 - Tempo por tarefa em toda medicao e gatilho de cauda (RN-CUR-38)](0087-cauda-de-tempo-rn-cur-38.md) - Accepted
+- [0088 - Paralelismo padrao das medicoes: 6 processos (RN-CUR-37)](0088-paralelismo-padrao-rn-cur-37.md) - Accepted
+- [0089 - Gargalo na busca principal: RN-CUR-38 integral, Rodada 10 e reengenharia da busca](0089-gargalo-busca-principal-reengenharia.md) - Accepted
+- [0090 - Otimizacao da busca de objetos: eliminar trabalho repetido (Rodada 10)](0090-otimizacao-busca-objetos-rodada-10.md) - Accepted
+- [0091 - Deslizamento com cena assentada: empilhar objetos (Rodada 11)](0091-deslizamento-assentado-rodada-11.md) - Accepted
+- [0092 - Poda de conectividade que respeita rearranjo (Rodada 12)](0092-poda-conectividade-sob-rearranjo-rodada-12.md) - Accepted
+- [0093 - Diagnostico em escala e recalibracao da meta (pos-Rodada 12)](0093-diagnostico-em-escala-e-recalibracao-da-meta.md) - Accepted
+- [0094 - Sobreposicao de subgrades por tabela de mascara (Rodada 13)](0094-sobreposicao-de-subgrades-por-tabela-de-mascara-rodada-13.md) - Accepted
+- [0095 - arc2_only como metrica principal e criterio de decisao (Rodadas 14 a 16)](0095-arc2-only-como-metrica-principal-rodadas-14-a-16.md) - Accepted
+- [0096 - Rodada 14: triagem de familias arc2_only sem peca nova](0096-triagem-arc2-only-rodada-14-sem-peca.md) - Accepted
+- [0097 - Composicao de duas regras em sequencia (Rodada 15)](0097-composicao-de-duas-regras-rodada-15.md) - Accepted
+- [0098 - Selecao relacional por extremo (Rodada 16)](0098-selecao-relacional-por-extremo-rodada-16.md) - Accepted; refutado para arc2_only (3o mecanismo estrutural refutado)
+- [0099 - Catalogo de mecanismos M1 a M5 e ordem das rodadas 16-20](0099-catalogo-de-mecanismos-m1-a-m5-e-ordem-das-rodadas.md) - Accepted
+- [0100 - Rotulo arc2_only exato (confirmado) e tres denominadores](0100-rotulo-arc2-only-exato-e-tres-denominadores.md) - Accepted
+- [0101 - Teto da segunda etapa de sequencias (custo, RN-CUR-38)](0101-teto-da-segunda-etapa-de-sequencias-rn-cur-38.md) - Accepted
+- [0102 - Rodada 17: M3, parametro lido da propria grade](0102-rodada-17-m3-parametro-lido-da-grade.md) - Superseded pelo 0103 (gate de estimativa acionado)
+- [0103 - Encerramento da linha de mecanismos (Rodadas 14 a 17)](0103-encerramento-da-linha-de-mecanismos.md) - Accepted
+- [0104 - Submissao real do solver curricular](0104-submissao-real-do-solver-curricular.md) - Accepted (push manual)
+- [0105 - Ciclo continuo v2: aprender resolvendo a mao (ate 2026-10-20)](0105-ciclo-continuo-v2-resolver-a-mao.md) - Accepted (supera decisoes 1 e 3 do 0103)
+- [0106 - Pacote de paineis: grade cortada por linhas separadoras (Rodada 18)](0106-pacote-de-paineis-rodada-18.md) - Accepted
+- [0107 - Camada de parametros derivados (Rodada 19, Secao 3)](0107-camada-de-parametros-derivados-rodada-19.md) - Accepted
+- [0108 - Cobertura por volume (a partir da Rodada 20)](0108-cobertura-por-volume-rodada-20.md) - Accepted
+- [0109 - Carimbo: copiar regiao para ancoras com deslocamento derivado (Rodada 21)](0109-carimbo-rodada-21.md) - Accepted
+- [0110 - Motor de descoberta: gerar propriedades e deixar a verificacao escolher (Rodada 22)](0110-motor-de-descoberta-rodada-22.md) - Accepted
+- [0111 - Teto de representacao: filtro de equivariancia corrigido e busca com oraculo (Rodada 23)](0111-teto-de-representacao-rodada-23.md) - Accepted
+- [0112 - Encerramento da linha tecnica de composicao e consolidacao do projeto](0112-encerramento-da-linha-tecnica-rodada-23.md) - Accepted
+- [0113 - Teste de viabilidade: modelo local escrevendo programas (Rodada 24)](0113-viabilidade-de-programas-rodada-24.md) - Accepted
+- [0114 - Publicacao do repositorio e ajustes finais do Writeup](0114-publicacao-do-repositorio.md) - Accepted

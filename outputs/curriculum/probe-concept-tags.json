@@ -1,0 +1,6275 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-21",
+  "source": "concept-map.json v1, train pairs only (RN-CUR-03/05) + signature refinement (ADR 0085)",
+  "tags": {
+    "025d127b": [
+      {
+        "concept_id": "contagem_mais_frequente",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "contagem_quantos",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "ligar_pontos_mesma_cor",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_posicao",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "raio_ate_borda",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "topologia_dentro",
+        "confianca": "baixa"
+      }
+    ],
+    "03560426": [
+      {
+        "concept_id": "contagem_mais_frequente",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "contagem_quantos",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "alta"
+      }
+    ],
+    "0607ce86": [
+      {
+        "concept_id": "contagem_mais_frequente",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "contagem_quantos",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "recolorir_por_propriedade",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "alta"
+      }
+    ],
+    "0692e18c": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "grade_de_blocos",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      }
+    ],
+    "0e671a1a": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_linha_marcadores",
+        "confianca": "media"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "alta"
+      }
+    ],
+    "10fcaaa3": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "grade_de_blocos",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_posicao",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      }
+    ],
+    "12997ef3": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_posicao",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "recorte",
+        "confianca": "baixa"
+      }
+    ],
+    "12eac192": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "recolorir_por_propriedade",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "topologia_dentro",
+        "confianca": "baixa"
+      }
+    ],
+    "14754a24": [
+      {
+        "concept_id": "contagem_mais_frequente",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "recolorir_por_propriedade",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "topologia_dentro",
+        "confianca": "baixa"
+      }
+    ],
+    "17b80ad2": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "ligar_pontos_mesma_cor",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_linha_marcadores",
+        "confianca": "media"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "raio_ate_borda",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "raio_ate_obstaculo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "alta"
+      }
+    ],
+    "18419cfa": [
+      {
+        "concept_id": "contagem_mais_frequente",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "topologia_dentro",
+        "confianca": "baixa"
+      }
+    ],
+    "19bb5feb": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "recorte",
+        "confianca": "baixa"
+      }
+    ],
+    "1acc24af": [
+      {
+        "concept_id": "contagem_mais_frequente",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "recolorir_por_propriedade",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "alta"
+      }
+    ],
+    "1b59e163": [
+      {
+        "concept_id": "contagem_mais_frequente",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "topologia_dentro",
+        "confianca": "baixa"
+      }
+    ],
+    "1be83260": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "recorte",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "topologia_dentro",
+        "confianca": "baixa"
+      }
+    ],
+    "1bfc4729": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_posicao",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "raio_ate_borda",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "simetria_completar",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "simetria_detectar",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "alta"
+      }
+    ],
+    "1c0d0a4b": [
+      {
+        "concept_id": "contagem_quantos",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_contorno",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "preencher_regiao_fechada",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "topologia_dentro",
+        "confianca": "alta"
+      }
+    ],
+    "1d0a4b61": [
+      {
+        "concept_id": "contagem_mais_frequente",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "recolorir_por_propriedade",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "topologia_dentro",
+        "confianca": "baixa"
+      }
+    ],
+    "1d398264": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "recolorir_por_propriedade",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "alta"
+      }
+    ],
+    "1e0a9b12": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "ligar_pontos_mesma_cor",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_posicao",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "raio_ate_borda",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "recolorir_por_propriedade",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "alta"
+      }
+    ],
+    "1e32b0e9": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "topologia_dentro",
+        "confianca": "baixa"
+      }
+    ],
+    "1fad071e": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "recorte",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      }
+    ],
+    "2037f2c7": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "recorte",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      }
+    ],
+    "228f6490": [
+      {
+        "concept_id": "contagem_mais_frequente",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "contagem_menor",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "recolorir_por_propriedade",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "topologia_dentro",
+        "confianca": "baixa"
+      }
+    ],
+    "22a4bbc2": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "recolorir_por_propriedade",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "alta"
+      }
+    ],
+    "23b5c85d": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_caixa_envolvente",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "recorte",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      }
+    ],
+    "281123b4": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "recorte",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "topologia_dentro",
+        "confianca": "baixa"
+      }
+    ],
+    "28bf18c6": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_posicao",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "recorte",
+        "confianca": "baixa"
+      }
+    ],
+    "28e73c20": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "baixa"
+      }
+    ],
+    "29623171": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_posicao",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "raio_ate_borda",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "raio_ate_obstaculo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "topologia_dentro",
+        "confianca": "baixa"
+      }
+    ],
+    "29c11459": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_linha_marcadores",
+        "confianca": "media"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "alta"
+      }
+    ],
+    "2bcee788": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "baixa"
+      }
+    ],
+    "2dee498d": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_caixa_envolvente",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "recorte",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "topologia_dentro",
+        "confianca": "baixa"
+      }
+    ],
+    "31aa019c": [
+      {
+        "concept_id": "contagem_quantos",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "recolorir_por_propriedade",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "alta"
+      }
+    ],
+    "320afe60": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "topologia_dentro",
+        "confianca": "baixa"
+      }
+    ],
+    "332202d5": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "recolorir_por_propriedade",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "baixa"
+      }
+    ],
+    "337b420f": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "recorte",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "topologia_dentro",
+        "confianca": "baixa"
+      }
+    ],
+    "33b52de3": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "recolorir_por_propriedade",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "topologia_dentro",
+        "confianca": "baixa"
+      }
+    ],
+    "342ae2ed": [
+      {
+        "concept_id": "contagem_mais_frequente",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "alta"
+      }
+    ],
+    "342dd610": [
+      {
+        "concept_id": "deslizar_ate_encostar",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_posicao",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "alta"
+      }
+    ],
+    "36fdfd69": [
+      {
+        "concept_id": "contagem_mais_frequente",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "recolorir_por_propriedade",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "topologia_dentro",
+        "confianca": "baixa"
+      }
+    ],
+    "37ce87bb": [
+      {
+        "concept_id": "contagem_mais_frequente",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "alta"
+      }
+    ],
+    "3de23699": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "recorte",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      }
+    ],
+    "414297c0": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "recorte",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      }
+    ],
+    "41ace6b5": [
+      {
+        "concept_id": "contagem_maior",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "contagem_mais_frequente",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "contagem_menor",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "recolorir_por_propriedade",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "alta"
+      }
+    ],
+    "423a55dc": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "topologia_dentro",
+        "confianca": "baixa"
+      }
+    ],
+    "4258a5f9": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_halo",
+        "confianca": "media"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "alta"
+      }
+    ],
+    "42a15761": [
+      {
+        "concept_id": "contagem_mais_frequente",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "alta"
+      }
+    ],
+    "444801d8": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_halo",
+        "confianca": "media"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "raio_ate_obstaculo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "recolorir_por_propriedade",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "topologia_dentro",
+        "confianca": "baixa"
+      }
+    ],
+    "44d8ac46": [
+      {
+        "concept_id": "contagem_mais_frequente",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "topologia_dentro",
+        "confianca": "baixa"
+      }
+    ],
+    "4be741c5": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "recorte",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      }
+    ],
+    "4e45f183": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_posicao",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "recolorir_por_propriedade",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "simetria_completar",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "simetria_detectar",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "topologia_dentro",
+        "confianca": "baixa"
+      }
+    ],
+    "4ff4c9da": [
+      {
+        "concept_id": "cor_extrema_frequencia",
+        "confianca": "media"
+      },
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "recolorir_por_propriedade",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "topologia_dentro",
+        "confianca": "baixa"
+      }
+    ],
+    "50cb2852": [
+      {
+        "concept_id": "contagem_mais_frequente",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "recolorir_por_propriedade",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "alta"
+      }
+    ],
+    "52df9849": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "recolorir_por_propriedade",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "alta"
+      }
+    ],
+    "52fd389e": [
+      {
+        "concept_id": "contagem_mais_frequente",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "recolorir_por_propriedade",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "alta"
+      }
+    ],
+    "53b68214": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "topologia_dentro",
+        "confianca": "baixa"
+      }
+    ],
+    "543a7ed5": [
+      {
+        "concept_id": "contagem_mais_frequente",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "contagem_quantos",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_contorno",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "preencher_regiao_fechada",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "topologia_dentro",
+        "confianca": "alta"
+      }
+    ],
+    "54d9e175": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "baixa"
+      }
+    ],
+    "551d5bf1": [
+      {
+        "concept_id": "contagem_mais_frequente",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_contorno",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "preencher_regiao_fechada",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "topologia_dentro",
+        "confianca": "alta"
+      }
+    ],
+    "56ff96f3": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_posicao",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "raio_ate_borda",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "alta"
+      }
+    ],
+    "5751f35e": [
+      {
+        "concept_id": "contagem_maior",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "contagem_mais_frequente",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "contagem_menor",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "contagem_unico",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "ligar_pontos_mesma_cor",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_halo",
+        "confianca": "media"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "raio_ate_obstaculo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "recolorir_por_propriedade",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "regra_por_objeto_chave",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "simetria_completar",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "simetria_detectar",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "topologia_dentro",
+        "confianca": "baixa"
+      }
+    ],
+    "57edb29d": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "recorte",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      }
+    ],
+    "58e15b12": [
+      {
+        "concept_id": "contagem_mais_frequente",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "alta"
+      }
+    ],
+    "5af49b42": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "recolorir_por_propriedade",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "alta"
+      }
+    ],
+    "5b37cb25": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "recolorir_por_propriedade",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "topologia_dentro",
+        "confianca": "baixa"
+      }
+    ],
+    "5b526a93": [
+      {
+        "concept_id": "contagem_mais_frequente",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "topologia_dentro",
+        "confianca": "baixa"
+      }
+    ],
+    "5bd6f4ac": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_caixa_envolvente",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "recorte",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "topologia_dentro",
+        "confianca": "baixa"
+      }
+    ],
+    "5ecac7f7": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "recorte",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "topologia_dentro",
+        "confianca": "baixa"
+      }
+    ],
+    "5ffb2104": [
+      {
+        "concept_id": "contagem_mais_frequente",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "contagem_quantos",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "alta"
+      }
+    ],
+    "60b61512": [
+      {
+        "concept_id": "contagem_mais_frequente",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "alta"
+      }
+    ],
+    "60c09cac": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "grade_de_blocos",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      }
+    ],
+    "626c0bcc": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "recolorir_por_propriedade",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "topologia_dentro",
+        "confianca": "baixa"
+      }
+    ],
+    "642d658d": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_caixa_envolvente",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "recorte",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "topologia_dentro",
+        "confianca": "baixa"
+      }
+    ],
+    "66ac4c3b": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_linha_marcadores",
+        "confianca": "media"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "recolorir_por_propriedade",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "alta"
+      }
+    ],
+    "66e6c45b": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "alta"
+      }
+    ],
+    "673ef223": [
+      {
+        "concept_id": "contagem_mais_frequente",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "raio_ate_obstaculo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "alta"
+      }
+    ],
+    "67a3c6ac": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "espelhar",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_contorno",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_posicao",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "preencher_regiao_fechada",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "topologia_dentro",
+        "confianca": "alta"
+      }
+    ],
+    "695367ec": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "baixa"
+      }
+    ],
+    "6aa20dc0": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "recolorir_por_propriedade",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "topologia_dentro",
+        "confianca": "baixa"
+      }
+    ],
+    "6ad5bdfd": [
+      {
+        "concept_id": "contagem_maior",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "contagem_mais_frequente",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "recolorir_por_propriedade",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "alta"
+      }
+    ],
+    "6b9890af": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "recorte",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "topologia_dentro",
+        "confianca": "baixa"
+      }
+    ],
+    "6c434453": [
+      {
+        "concept_id": "contagem_mais_frequente",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_contorno",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "preencher_regiao_fechada",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "topologia_dentro",
+        "confianca": "alta"
+      }
+    ],
+    "6cdd2623": [
+      {
+        "concept_id": "contagem_quantos",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "ligar_pontos_mesma_cor",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_posicao",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "raio_ate_obstaculo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "recolorir_por_propriedade",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "alta"
+      }
+    ],
+    "6e19193c": [
+      {
+        "concept_id": "contagem_mais_frequente",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "alta"
+      }
+    ],
+    "6ecd11f4": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "recorte",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      }
+    ],
+    "6fa7a44f": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "grade_de_blocos",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_posicao",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      }
+    ],
+    "72a961c9": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "recolorir_por_propriedade",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "alta"
+      }
+    ],
+    "7468f01a": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "recorte",
+        "confianca": "baixa"
+      }
+    ],
+    "746b3537": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "recorte",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      }
+    ],
+    "74dd1130": [
+      {
+        "concept_id": "deslizar_ate_encostar",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "ligar_pontos_mesma_cor",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_posicao",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "recolorir_por_propriedade",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "transpor",
+        "confianca": "alta"
+      }
+    ],
+    "758abdf0": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "alta"
+      }
+    ],
+    "759f3fd3": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "alta"
+      }
+    ],
+    "776ffc46": [
+      {
+        "concept_id": "cor_extrema_frequencia",
+        "confianca": "media"
+      },
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "recolorir_por_propriedade",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "topologia_dentro",
+        "confianca": "baixa"
+      }
+    ],
+    "77fdfe62": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "recorte",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      }
+    ],
+    "7837ac64": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "recorte",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "topologia_dentro",
+        "confianca": "baixa"
+      }
+    ],
+    "7953d61e": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "grade_de_blocos",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "topologia_dentro",
+        "confianca": "baixa"
+      }
+    ],
+    "7d1f7ee8": [
+      {
+        "concept_id": "contagem_mais_frequente",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "recolorir_por_propriedade",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "topologia_dentro",
+        "confianca": "baixa"
+      }
+    ],
+    "7df24a62": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "recolorir_por_propriedade",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "alta"
+      }
+    ],
+    "7e0986d6": [
+      {
+        "concept_id": "contagem_mais_frequente",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "alta"
+      }
+    ],
+    "7ec998c9": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_posicao",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "topologia_dentro",
+        "confianca": "baixa"
+      }
+    ],
+    "7fe24cdd": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "grade_de_blocos",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      }
+    ],
+    "80af3007": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "recorte",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      }
+    ],
+    "810b9b61": [
+      {
+        "concept_id": "contagem_mais_frequente",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "recolorir_por_propriedade",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "topologia_dentro",
+        "confianca": "baixa"
+      }
+    ],
+    "81c0276b": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "recorte",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "topologia_dentro",
+        "confianca": "baixa"
+      }
+    ],
+    "833dafe3": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "grade_de_blocos",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_posicao",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      }
+    ],
+    "880c1354": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "recolorir_por_propriedade",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "topologia_dentro",
+        "confianca": "baixa"
+      }
+    ],
+    "890034e9": [
+      {
+        "concept_id": "contagem_quantos",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "cor_extrema_frequencia",
+        "confianca": "media"
+      },
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "recolorir_por_propriedade",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "topologia_dentro",
+        "confianca": "baixa"
+      }
+    ],
+    "8a004b2b": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "recorte",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      }
+    ],
+    "8b28cd80": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "grade_de_blocos",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_posicao",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      }
+    ],
+    "8dab14c2": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "alta"
+      }
+    ],
+    "8e1813be": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "recorte",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      }
+    ],
+    "8e5a5113": [
+      {
+        "concept_id": "contagem_maior",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "contagem_mais_frequente",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "contagem_menor",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "recolorir_por_propriedade",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "baixa"
+      }
+    ],
+    "8eb1be9a": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "alta"
+      }
+    ],
+    "91413438": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      }
+    ],
+    "928ad970": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_posicao",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "topologia_dentro",
+        "confianca": "baixa"
+      }
+    ],
+    "93c31fbe": [
+      {
+        "concept_id": "contagem_mais_frequente",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "recolorir_por_propriedade",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "topologia_dentro",
+        "confianca": "baixa"
+      }
+    ],
+    "94414823": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_linha_marcadores",
+        "confianca": "media"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "topologia_dentro",
+        "confianca": "baixa"
+      }
+    ],
+    "9565186b": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "recolorir_por_propriedade",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "baixa"
+      }
+    ],
+    "95a58926": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "topologia_dentro",
+        "confianca": "baixa"
+      }
+    ],
+    "963e52fc": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "grade_de_blocos",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      }
+    ],
+    "96a8c0cd": [
+      {
+        "concept_id": "contagem_maior",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "contagem_menor",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "cor_extrema_frequencia",
+        "confianca": "media"
+      },
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "raio_ate_obstaculo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "alta"
+      }
+    ],
+    "97239e3d": [
+      {
+        "concept_id": "contagem_maior",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "contagem_mais_frequente",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "contagem_menor",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_halo",
+        "confianca": "media"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "recolorir_por_propriedade",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "topologia_dentro",
+        "confianca": "baixa"
+      }
+    ],
+    "97999447": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_linha_marcadores",
+        "confianca": "media"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "alta"
+      }
+    ],
+    "985ae207": [
+      {
+        "concept_id": "contagem_maior",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "contagem_mais_frequente",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "contagem_menor",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "recolorir_por_propriedade",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "alta"
+      }
+    ],
+    "995c5fa3": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "recorte",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      }
+    ],
+    "9af7a82c": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      }
+    ],
+    "9ddd00f0": [
+      {
+        "concept_id": "contagem_mais_frequente",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "simetria_completar",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "simetria_detectar",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "topologia_dentro",
+        "confianca": "baixa"
+      }
+    ],
+    "9f27f097": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "recolorir_por_propriedade",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "topologia_dentro",
+        "confianca": "baixa"
+      }
+    ],
+    "a2fd1cf0": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_linha_marcadores",
+        "confianca": "media"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "alta"
+      }
+    ],
+    "a3f84088": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "topologia_dentro",
+        "confianca": "baixa"
+      }
+    ],
+    "a416fc5b": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_posicao",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "topologia_dentro",
+        "confianca": "baixa"
+      }
+    ],
+    "a5f85a15": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_posicao",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "alta"
+      }
+    ],
+    "a61f2674": [
+      {
+        "concept_id": "contagem_maior",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "contagem_menor",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "recolorir_por_propriedade",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "alta"
+      }
+    ],
+    "a699fb00": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_halo",
+        "confianca": "media"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "alta"
+      }
+    ],
+    "a79310a0": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "transladar",
+        "confianca": "media"
+      }
+    ],
+    "ad173014": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "recolorir_por_propriedade",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "topologia_dentro",
+        "confianca": "baixa"
+      }
+    ],
+    "ad3b40cf": [
+      {
+        "concept_id": "contagem_mais_frequente",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "alta"
+      }
+    ],
+    "ae4f1146": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_caixa_envolvente",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "recorte",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      }
+    ],
+    "b190f7f5": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      }
+    ],
+    "b2862040": [
+      {
+        "concept_id": "contagem_mais_frequente",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "recolorir_por_propriedade",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "topologia_dentro",
+        "confianca": "baixa"
+      }
+    ],
+    "b7999b51": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "recorte",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      }
+    ],
+    "ba1aa698": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "recorte",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "topologia_dentro",
+        "confianca": "baixa"
+      }
+    ],
+    "ba26e723": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_halo",
+        "confianca": "media"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "alta"
+      }
+    ],
+    "ba97ae07": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "recolorir_por_propriedade",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "alta"
+      }
+    ],
+    "bb43febb": [
+      {
+        "concept_id": "contagem_mais_frequente",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "recolorir_por_propriedade",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "alta"
+      }
+    ],
+    "bcb3040b": [
+      {
+        "concept_id": "contagem_maior",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "contagem_mais_frequente",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "contagem_menor",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "raio_ate_obstaculo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "recolorir_por_propriedade",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "topologia_dentro",
+        "confianca": "baixa"
+      }
+    ],
+    "c1d99e64": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "recolorir_por_propriedade",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "topologia_dentro",
+        "confianca": "baixa"
+      }
+    ],
+    "c3202e5a": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_caixa_envolvente",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "recorte",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "topologia_dentro",
+        "confianca": "baixa"
+      }
+    ],
+    "c4d1a9ae": [
+      {
+        "concept_id": "contagem_mais_frequente",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "contagem_quantos",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "recolorir_por_propriedade",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "topologia_dentro",
+        "confianca": "baixa"
+      }
+    ],
+    "c6e1b8da": [
+      {
+        "concept_id": "contagem_mais_frequente",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "contagem_quantos",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "recolorir_por_propriedade",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "alta"
+      }
+    ],
+    "c8b7cc0f": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_posicao",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "recorte",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "topologia_dentro",
+        "confianca": "baixa"
+      }
+    ],
+    "c8f0f002": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "recolorir_por_propriedade",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "alta"
+      }
+    ],
+    "cb227835": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_linha_marcadores",
+        "confianca": "media"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "alta"
+      }
+    ],
+    "cbded52d": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_halo",
+        "confianca": "media"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "recolorir_por_propriedade",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "topologia_dentro",
+        "confianca": "baixa"
+      }
+    ],
+    "cc9053aa": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "recolorir_por_propriedade",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "topologia_dentro",
+        "confianca": "baixa"
+      }
+    ],
+    "cce03e0d": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "grade_de_blocos",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_posicao",
+        "confianca": "baixa"
+      }
+    ],
+    "ce039d91": [
+      {
+        "concept_id": "contagem_mais_frequente",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "recolorir_por_propriedade",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "alta"
+      }
+    ],
+    "ce602527": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_caixa_envolvente",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "recorte",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "topologia_dentro",
+        "confianca": "baixa"
+      }
+    ],
+    "d037b0a7": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_halo",
+        "confianca": "media"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "alta"
+      }
+    ],
+    "d07ae81c": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "recolorir_por_propriedade",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "topologia_dentro",
+        "confianca": "baixa"
+      }
+    ],
+    "d0f5fe59": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "recorte",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      }
+    ],
+    "d255d7a7": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "topologia_dentro",
+        "confianca": "baixa"
+      }
+    ],
+    "d492a647": [
+      {
+        "concept_id": "contagem_maior",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "contagem_mais_frequente",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "contagem_menor",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "topologia_dentro",
+        "confianca": "baixa"
+      }
+    ],
+    "d4a91cb9": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_linha_marcadores",
+        "confianca": "media"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "alta"
+      }
+    ],
+    "d4f3cd78": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "alta"
+      }
+    ],
+    "d5c634a2": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "topologia_dentro",
+        "confianca": "baixa"
+      }
+    ],
+    "d5d6de2d": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_contorno",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "preencher_regiao_fechada",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "topologia_dentro",
+        "confianca": "alta"
+      }
+    ],
+    "d8c310e9": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "recolorir_por_propriedade",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "alta"
+      }
+    ],
+    "da6e95e5": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_caixa_envolvente",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "recorte",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "topologia_dentro",
+        "confianca": "baixa"
+      }
+    ],
+    "db93a21d": [
+      {
+        "concept_id": "contagem_mais_frequente",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "contagem_quantos",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "baixa"
+      }
+    ],
+    "dbc1a6ce": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_linha_marcadores",
+        "confianca": "media"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "alta"
+      }
+    ],
+    "dce56571": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "ligar_pontos_mesma_cor",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_posicao",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "raio_ate_borda",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "simetria_completar",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "simetria_detectar",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "topologia_dentro",
+        "confianca": "baixa"
+      }
+    ],
+    "ddf7fa4f": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "recolorir_por_propriedade",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "alta"
+      }
+    ],
+    "de1cd16c": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_caixa_envolvente",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_posicao",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "recorte",
+        "confianca": "alta"
+      }
+    ],
+    "df9fd884": [
+      {
+        "concept_id": "contagem_mais_frequente",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "deslizar_ate_encostar",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_posicao",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "alta"
+      }
+    ],
+    "e133d23d": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "recorte",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "topologia_dentro",
+        "confianca": "baixa"
+      }
+    ],
+    "e345f17b": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "recorte",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "topologia_dentro",
+        "confianca": "baixa"
+      }
+    ],
+    "e41c6fd3": [
+      {
+        "concept_id": "contagem_mais_frequente",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "contagem_quantos",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "alta"
+      }
+    ],
+    "e50d258f": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_caixa_envolvente",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "recorte",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      }
+    ],
+    "e5790162": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_posicao",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "raio_ate_obstaculo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "alta"
+      }
+    ],
+    "e619ca6e": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "alta"
+      }
+    ],
+    "e6721834": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_posicao",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "recorte",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "topologia_dentro",
+        "confianca": "baixa"
+      }
+    ],
+    "e7dd8335": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "recolorir_por_propriedade",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "topologia_dentro",
+        "confianca": "baixa"
+      }
+    ],
+    "e88171ec": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "recolorir_por_propriedade",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "topologia_dentro",
+        "confianca": "baixa"
+      }
+    ],
+    "ea959feb": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "recolorir_por_propriedade",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "topologia_dentro",
+        "confianca": "baixa"
+      }
+    ],
+    "eb5a1d5d": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "recorte",
+        "confianca": "baixa"
+      }
+    ],
+    "f0100645": [
+      {
+        "concept_id": "contagem_mais_frequente",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "contagem_quantos",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "ligar_pontos_mesma_cor",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_posicao",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "alta"
+      }
+    ],
+    "f18ec8cc": [
+      {
+        "concept_id": "cair_gravidade",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "ligar_pontos_mesma_cor",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_posicao",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "raio_ate_borda",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "recolorir_por_propriedade",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "topologia_dentro",
+        "confianca": "baixa"
+      }
+    ],
+    "f2829549": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "recorte",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "topologia_dentro",
+        "confianca": "baixa"
+      }
+    ],
+    "f28a3cbb": [
+      {
+        "concept_id": "contagem_maior",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "contagem_mais_frequente",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "contagem_unico",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "ligar_pontos_mesma_cor",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_posicao",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "alta"
+      }
+    ],
+    "f35d900a": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_linha_marcadores",
+        "confianca": "media"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "alta"
+      }
+    ],
+    "f3cdc58f": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "ligar_pontos_mesma_cor",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_posicao",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "raio_ate_borda",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "raio_ate_obstaculo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "alta"
+      }
+    ],
+    "f8b3ba0a": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "recorte",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      }
+    ],
+    "f8cc533f": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "recolorir_por_propriedade",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "topologia_dentro",
+        "confianca": "baixa"
+      }
+    ],
+    "f8ff0b80": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "recorte",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      }
+    ],
+    "f9d67f8b": [
+      {
+        "concept_id": "contagem_mais_frequente",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "recolorir_por_propriedade",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "topologia_dentro",
+        "confianca": "baixa"
+      }
+    ],
+    "fcc82909": [
+      {
+        "concept_id": "contagem_mais_frequente",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "contagem_quantos",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "recolorir_por_propriedade",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "alta"
+      }
+    ],
+    "ff2825db": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "ligar_pontos_mesma_cor",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_posicao",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "paleta",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "raio_ate_obstaculo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "recolorir_por_propriedade",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "tela_mesmo_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "topologia_dentro",
+        "confianca": "baixa"
+      }
+    ],
+    "ff28f65a": [
+      {
+        "concept_id": "dimensoes",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "fundo",
+        "confianca": "alta"
+      },
+      {
+        "concept_id": "objeto_cor",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "objeto_tamanho",
+        "confianca": "baixa"
+      },
+      {
+        "concept_id": "segmentacao_4",
+        "confianca": "alta"
+      }
+    ]
+  }
+}

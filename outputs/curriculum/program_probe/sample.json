@@ -1,0 +1,152 @@
+[
+ {
+  "task_id": "1190bc91",
+  "category": "desenha",
+  "prompt_chars": 1074
+ },
+ {
+  "task_id": "1efba499",
+  "category": "move",
+  "prompt_chars": 1602
+ },
+ {
+  "task_id": "22425bda",
+  "category": "muda a forma",
+  "prompt_chars": 1193
+ },
+ {
+  "task_id": "2e65ae53",
+  "category": "desenha",
+  "prompt_chars": 2631
+ },
+ {
+  "task_id": "332202d5",
+  "category": "misto",
+  "prompt_chars": 2274
+ },
+ {
+  "task_id": "3d6c6e23",
+  "category": "move",
+  "prompt_chars": 1904
+ },
+ {
+  "task_id": "494ef9d7",
+  "category": "move",
+  "prompt_chars": 1067
+ },
+ {
+  "task_id": "4a1cacc2",
+  "category": "recolore",
+  "prompt_chars": 1037
+ },
+ {
+  "task_id": "522fdd07",
+  "category": "misto",
+  "prompt_chars": 2877
+ },
+ {
+  "task_id": "52364a65",
+  "category": "misto",
+  "prompt_chars": 1003
+ },
+ {
+  "task_id": "54dc2872",
+  "category": "misto",
+  "prompt_chars": 1215
+ },
+ {
+  "task_id": "5751f35e",
+  "category": "desenha",
+  "prompt_chars": 999
+ },
+ {
+  "task_id": "57edb29d",
+  "category": "muda a forma",
+  "prompt_chars": 2368
+ },
+ {
+  "task_id": "5e6bbc0b",
+  "category": "misto",
+  "prompt_chars": 889
+ },
+ {
+  "task_id": "79cce52d",
+  "category": "muda a forma",
+  "prompt_chars": 876
+ },
+ {
+  "task_id": "7d7772cc",
+  "category": "recolore",
+  "prompt_chars": 1671
+ },
+ {
+  "task_id": "84551f4c",
+  "category": "move",
+  "prompt_chars": 816
+ },
+ {
+  "task_id": "95755ff2",
+  "category": "desenha",
+  "prompt_chars": 1404
+ },
+ {
+  "task_id": "984d8a3e",
+  "category": "recolore",
+  "prompt_chars": 999
+ },
+ {
+  "task_id": "9968a131",
+  "category": "misto",
+  "prompt_chars": 663
+ },
+ {
+  "task_id": "996ec1f3",
+  "category": "muda a forma",
+  "prompt_chars": 1740
+ },
+ {
+  "task_id": "9ba4a9aa",
+  "category": "muda a forma",
+  "prompt_chars": 2118
+ },
+ {
+  "task_id": "a834deea",
+  "category": "desenha",
+  "prompt_chars": 1470
+ },
+ {
+  "task_id": "b2bc3ffd",
+  "category": "recolore",
+  "prompt_chars": 1026
+ },
+ {
+  "task_id": "c920a713",
+  "category": "muda a forma",
+  "prompt_chars": 2142
+ },
+ {
+  "task_id": "df978a02",
+  "category": "misto",
+  "prompt_chars": 2274
+ },
+ {
+  "task_id": "e048c9ed",
+  "category": "desenha",
+  "prompt_chars": 1157
+ },
+ {
+  "task_id": "e9fc42f2",
+  "category": "muda a forma",
+  "prompt_chars": 1332
+ },
+ {
+  "task_id": "f1bcbc2c",
+  "category": "misto",
+  "prompt_chars": 1533
+ },
+ {
+  "task_id": "f28a3cbb",
+  "category": "recolore",
+  "prompt_chars": 915
+ }
+]

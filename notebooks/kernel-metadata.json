@@ -1,0 +1,18 @@
+{
+  "id": "kcedd34/arc-agi-2-symbolic-submission-adr-0047",
+  "title": "ARC-AGI-2 hybrid submission (ADR 0047-0049)",
+  "code_file": "kaggle_submission_symbolic.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": "true",
+  "enable_gpu": "true",
+  "enable_tpu": "false",
+  "enable_internet": "false",
+  "dataset_sources": [
+    "kcedd34/arc-agi2-offline-wheelhouse-adr0048",
+    "kcedd34/arc-agi2-qwen3-4b-base-4bit-adr0049"
+  ],
+  "competition_sources": ["arc-prize-2026-arc-agi-2"],
+  "kernel_sources": [],
+  "model_sources": []
+}

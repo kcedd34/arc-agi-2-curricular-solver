@@ -1,0 +1,102 @@
+{
+ "overall": {
+  "programs": 1320,
+  "executes": 815,
+  "train_ok_programs": 0,
+  "train_ok_tasks": [],
+  "train_ok_clean_tasks": [],
+  "test_ok_tasks": [],
+  "flagged_train_ok": 0,
+  "mean_seconds": 27.805862876176835
+ },
+ "configs": {
+  "base/guided": {
+   "programs": 330,
+   "executes": 203,
+   "train_ok_programs": 0,
+   "train_ok_tasks": [],
+   "train_ok_clean_tasks": [],
+   "test_ok_tasks": [],
+   "flagged_train_ok": 0,
+   "mean_seconds": 26.62733167330424
+  },
+  "base/plain": {
+   "programs": 330,
+   "executes": 173,
+   "train_ok_programs": 0,
+   "train_ok_tasks": [],
+   "train_ok_clean_tasks": [],
+   "test_ok_tasks": [],
+   "flagged_train_ok": 0,
+   "mean_seconds": 23.76978543440501
+  },
+  "instruct/guided": {
+   "programs": 330,
+   "executes": 231,
+   "train_ok_programs": 0,
+   "train_ok_tasks": [],
+   "train_ok_clean_tasks": [],
+   "test_ok_tasks": [],
+   "flagged_train_ok": 0,
+   "mean_seconds": 31.307439221541088
+  },
+  "instruct/plain": {
+   "programs": 330,
+   "executes": 208,
+   "train_ok_programs": 0,
+   "train_ok_tasks": [],
+   "train_ok_clean_tasks": [],
+   "test_ok_tasks": [],
+   "flagged_train_ok": 0,
+   "mean_seconds": 29.518895175457
+  }
+ },
+ "variants": {
+  "guided": {
+   "programs": 660,
+   "executes": 434,
+   "train_ok_programs": 0,
+   "train_ok_tasks": [],
+   "train_ok_clean_tasks": [],
+   "test_ok_tasks": [],
+   "flagged_train_ok": 0,
+   "mean_seconds": 28.967385447422664
+  },
+  "plain": {
+   "programs": 660,
+   "executes": 381,
+   "train_ok_programs": 0,
+   "train_ok_tasks": [],
+   "train_ok_clean_tasks": [],
+   "test_ok_tasks": [],
+   "flagged_train_ok": 0,
+   "mean_seconds": 26.644340304931006
+  }
+ },
+ "models": {
+  "base": {
+   "programs": 660,
+   "executes": 376,
+   "train_ok_programs": 0,
+   "train_ok_tasks": [],
+   "train_ok_clean_tasks": [],
+   "test_ok_tasks": [],
+   "flagged_train_ok": 0,
+   "mean_seconds": 25.198558553854625
+  },
+  "instruct": {
+   "programs": 660,
+   "executes": 439,
+   "train_ok_programs": 0,
+   "train_ok_tasks": [],
+   "train_ok_clean_tasks": [],
+   "test_ok_tasks": [],
+   "flagged_train_ok": 0,
+   "mean_seconds": 30.413167198499043
+  }
+ },
+ "projection": {
+  "hours": 18.537241917451222,
+  "fits_12h": false
+ }
+}

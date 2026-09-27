@@ -1,0 +1,9 @@
+{
+  "note": "Official 0.83 baseline (ADR 0104, ref 56552321), frozen by ADR 0112. Any change to these files must be a deliberate, ADR-backed decision by the decider.",
+  "sha256": {
+    "notebooks/curricular/kaggle_submission_curricular.ipynb": "2145e102317ac5e7153c73dcda80d2a86ec8f152b4126c4fc65d0cecfd768197",
+    "notebooks/curricular/kernel-metadata.json": "d2dbb13334aa67b398bcfa94f867cbdbb4d541a6f6661a991d9be0e855abfd02",
+    "notebooks/curricular/build_notebook.py": "1642d9cea11674326f61081ebe4f56dd1d54137bd62d96a54f13757135446ae4",
+    "outputs/curriculum/kaggle_run_v1/submission.json": "6aed1e6271fa3158790a7e26583a3c5bb71cb468e6e9ab96c407a76fdc1aefab"
+  }
+}

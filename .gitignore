@@ -1,0 +1,35 @@
+data/
+*.parquet
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+.venv312/
+.ipynb_checkpoints/
+outputs/*
+!outputs/curriculum/
+outputs/curriculum/*
+# Result artifacts kept in the public repository (reproduction and the frozen baseline)
+!outputs/curriculum/state.json
+!outputs/curriculum/concept-map.json
+!outputs/curriculum/probe-concept-tags.json
+!outputs/curriculum/kaggle_run_v1/
+outputs/curriculum/kaggle_run_v1/*
+!outputs/curriculum/kaggle_run_v1/submission.json
+!outputs/curriculum/kaggle_run_v1/submission_report.json
+!outputs/curriculum/oracle/
+outputs/curriculum/oracle/*
+!outputs/curriculum/oracle/oracle-r23.json
+!outputs/curriculum/program_probe/
+outputs/curriculum/program_probe/generations-*.jsonl
+unsloth_compiled_cache/
+*.log
+.env
+
+# Internal working material (not part of the public deliverable, see
+# docs/decisions - operational/workflow notes, not solution documentation)
+CLAUDE.md
+.claude/
+docs/scratch/
+docs/internal-notes.md

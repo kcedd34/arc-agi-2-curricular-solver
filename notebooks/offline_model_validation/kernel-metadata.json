@@ -1,0 +1,15 @@
+{
+  "id": "kcedd34/arc-agi2-offline-model-validation",
+  "title": "arc agi2 offline model validation",
+  "code_file": "offline_model_validation.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": "true",
+  "enable_gpu": "true",
+  "enable_tpu": "false",
+  "enable_internet": "false",
+  "dataset_sources": ["kcedd34/arc-agi2-olmo2-7b-4bit-adr0048", "kcedd34/arc-agi2-offline-wheelhouse-adr0048"],
+  "competition_sources": [],
+  "kernel_sources": [],
+  "model_sources": []
+}
