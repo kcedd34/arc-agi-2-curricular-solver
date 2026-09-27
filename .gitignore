@@ -24,6 +24,7 @@ outputs/curriculum/oracle/*
 !outputs/curriculum/program_probe/
 outputs/curriculum/program_probe/generations-*.jsonl
 unsloth_compiled_cache/
+notebooks/offline_wheelhouse/*.whl
 *.log
 .env
 
